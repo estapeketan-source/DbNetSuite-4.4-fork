@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<title>DbNetGrid Word Mail Merge</title>
+<HTA:APPLICATION ID="oHTA"
+     BORDERSTYLE="thin"
+     CAPTION="yes"
+     ICON="../images/dbnetgrid.ico"
+     MAXIMIZEBUTTON="yes"
+     MINIMIZEBUTTON="yes"
+     SHOWINTASKBAR="yes"
+     SINGLEINSTANCE="yes"
+     SYSMENU="yes"
+     />
+  <link rel="stylesheet" type="text/css" href="dbnetsuite.css.ashx" />
+  <style>
+*
+{
+  font-family:tahoma;
+  font-size:8pt;
+}
+body 
+{
+  background-color:gainsboro;
+}   
+#messageLine 
+{
+  background-color:whitesmoke;
+  border:1pt solid silver;
+  color:black;
+  padding:5px;
+  text-align:center;
+} 
+  </style>  
+  <script language="JavaScript" src="dbnetsuite.js.ashx?mode=office"></script>
+  <script language="JavaScript">
+    jQuery(document).ready( init )
+
+    var dataSource, queryString, textNodes, dbnetgrid1
+
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    function init()
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    {
+	window.setTimeout("window.focus()",100);
+
+	var h = 120;
+	var w = screen.availWidth * 0.6;
+
+	window.resizeTo( w, h )
+	window.moveTo( (screen.availWidth - w )/ 2, (screen.availHeight - h ) / 2 )
+
+    dbnetgrid1 = new DbNetGrid("dbnetgrid1");
+    dbnetgrid1.bind("onDataSourceLoaded", saveDataSource);
+    dbnetgrid1.getMailMergeData();
+    }
+   window.focus();
+  </script>
+</HEAD>
+
+<BODY scroll="no" topMargin="0" leftMargin="5">
+<table id="layout" border="0" cellspacing="10" style="width:100%">
+	<tr>
+		<td id="messageLine"><b>Working...</b></td>
+	</tr>
+	<tr>
+		<td style="text-align:right"><button onclick="window.close()">Close</button></td>
+	</tr>
+</table>
+<div style="display:none" id="dbnetgrid1"></div>
+</BODY>
+</HTML>
+

@@ -1,0 +1,103 @@
+﻿.dbnetlist
+{
+	font-family:verdana;
+	font-size:small;
+}
+
+span.data-cell-text
+{	
+	padding:2px;
+	white-space:nowrap;
+}
+
+span.highlight
+{	
+	text-decoration:underline;
+}
+
+.dbnetlist .header-row
+{
+	background-color:#DDDDDD;
+}
+
+.dbnetlist .header-cell
+{
+	text-align: left;
+	border:1pt solid #CCCCCC;
+}
+
+.dbnetlist-grid .data-cell
+{
+	border:0pt solid #CCCCCC;
+}
+.dbnetlist .even
+{
+	background-color: #F5F5F5;
+}
+.dbnetlist .odd
+{
+	background-color: #FFFFFF;
+}
+table.dbnetlist-grid
+{
+	border-collapse:collapse;
+	border:1pt solid #CCCCCC;
+}
+
+table.dbnetlist-tree
+{
+	border:0pt solid #CCCCCC;
+}
+.dbnetlist-grid .highlight
+{
+	background-color: khaki;
+}
+.dbnetlist-tree .highlight
+{
+	background-color: #FFFFFF;
+}
+.dbnetlist .selected
+{
+	background-color: #336699;
+	color: white;
+}
+.dbnetlist .tree-cell
+{
+	background-color:white;
+}
+.dbnetlist .header-tree-image-cell,
+.dbnetlist .header-tree-cell
+{
+	background-color:white;
+}
+
+.dbnetlist .selectable-link 
+{
+	color:#000000;
+	cursor:pointer;
+}
+.dbnetlist .expand-button 
+{
+	cursor:pointer;
+}
+.dbnetlist .collapse-button 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-node-open 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-node-close 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-last-node-open 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-last-node-close
+{
+	cursor:pointer;
+}
+

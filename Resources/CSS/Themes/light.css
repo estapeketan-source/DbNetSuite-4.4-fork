@@ -1,0 +1,143 @@
+﻿.dbnetgrid .even   
+{   
+	background-color: #FFFFFF;   
+}   
+.dbnetgrid .odd   
+{   
+	background-color: #FFFFFF;   
+}   
+.dbnetgrid .highlight   
+{   
+	background-color: #EEEEEE;   
+}   
+.dbnetgrid .selected   
+{   
+	background-color: #6699CC;   
+	color: #FFFFFF;   
+}  
+.dbnetgrid .header-cell   
+{   
+	background-color: #EEEEEE;   
+	border-left: 0pt;   
+	border-right: 0pt;  
+	border-top: 1pt solid #DDDDDD;  
+} 
+
+table.dbnetgrid    
+{   
+	border: 0pt;   
+} 	
+
+.asc-sort-sequence-image {
+	width:20px;
+	background: url(light.Asc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.desc-sort-sequence-image {
+	width:20px;
+	background: url(light.Desc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.dbnetgrid .data-cell   
+{   
+	border-color:#DDDDDD;
+	border-left: 0pt;   
+	border-right: 0pt;   
+} 
+
+.dbnetgrid .aggregate-cell
+{
+	font-weight: bold;
+	background-color: #FFFFFF;
+	border:0pt;
+}
+
+.dbnetgrid .nested-grid-cell
+{
+	padding:10px;
+}
+
+.dbnetgrid .aggregate-filler-cell
+{
+	background-color: #FFFFFF;
+	border:0pt;
+}	
+
+.dbnetfile.grid .even   
+{   
+	background-color: #FFFFFF;   
+}   
+.dbnetfile.grid .odd   
+{   
+	background-color: #FFFFFF;   
+}   
+.dbnetfile.grid .highlight   
+{   
+	background-color: #EEEEEE;   
+}   
+.dbnetfile.grid .selected   
+{   
+	background-color: #6699CC;   
+	color: #FFFFFF;   
+}  
+.dbnetfile.grid .header-cell   
+{   
+	background-color: #EEEEEE;   
+	border-top: 1pt solid #DDDDDD;   
+	border-bottom: 1pt solid #DDDDDD;   
+} 
+
+table.dbnetfile.grid    
+{   
+	border: 0pt;   
+} 	
+
+.dbnetfile.grid .data-cell   
+{   
+	border-top: 1pt solid #DDDDDD;   
+	border-bottom: 1pt solid #DDDDDD;   
+} 
+
+.dbnetlist .header-row
+{
+	background-color:#DDDDDD;
+}
+
+.dbnetlist .header-cell
+{
+	text-align: left;
+	border:0pt solid #CCCCCC;
+	border-top: 1pt solid #DDDDDD;   
+	border-bottom: 1pt solid #DDDDDD;   
+}
+
+.dbnetlist-grid .data-cell
+{
+	border-top: 1pt solid #DDDDDD;   
+	border-bottom: 1pt solid #DDDDDD;   
+}
+.dbnetlist .even
+{
+	background-color: #FFFFFF;
+}
+.dbnetlist .odd
+{
+	background-color: #FFFFFF;
+}
+ 
+.dbnetlist-grid .highlight   
+{   
+	background-color: #EEEEEE;   
+}  
+.dbnetlist-grid .selected   
+{   
+	background-color: #6699CC;   
+	color: #FFFFFF;   
+} table.dbnetlist-grid
+{
+	border-collapse:collapse;
+	border:0pt solid #CCCCCC;
+}
+

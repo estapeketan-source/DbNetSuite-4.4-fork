@@ -1,0 +1,130 @@
+﻿.dbnetgrid .even   
+{   
+	background-color: #1d1d1d;   
+}   
+.dbnetgrid .odd   
+{   
+	background-color: #333333;   
+}   
+.dbnetgrid .highlight   
+{   
+	background-color: #666666;   
+}   
+.dbnetgrid .selected   
+{   
+	background-color: #336699;   
+}  
+.dbnetgrid .header-cell   
+{   
+	background-color: #888888;   
+	color: #FFFFFF;   
+	border-left: 0pt;   
+	border-right: 0pt;  
+	border-top: 1pt solid #000000;  
+	border-bottom: 1pt solid #000000;  
+} 
+
+table.dbnetgrid    
+{   
+	border: 0pt;   
+} 	
+
+.asc-sort-sequence-image {
+	width:20px;
+	background: url(light.Asc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.desc-sort-sequence-image {
+	width:20px;
+	background: url(light.Desc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.dbnetgrid .data-cell   
+{   
+	color: #FFFFFF;   
+	border-color:#000000;
+	border-left: 0pt;   
+	border-right: 0pt;   
+} 
+
+.dbnetfile.grid .even   
+{   
+	background-color: #333333;   
+}   
+.dbnetfile.grid .odd   
+{   
+	background-color: #1d1d1d;   
+}   
+.dbnetfile.grid .highlight   
+{   
+	background-color: #666666;   
+}   
+.dbnetfile.grid .selected   
+{   
+	background-color: #336699;   
+}  
+ 
+.dbnetfile.grid .header-cell   
+{   
+	color:#FFFFFF;
+	background-color: #888888;   
+	border-top: 1pt solid #000000;   
+	border-bottom: 1pt solid #000000;   
+} 
+
+table.dbnetfile.grid    
+{   
+	border: 0pt;   
+} 	
+
+.dbnetfile.grid .data-cell   
+{   
+	color:#FFFFFF;
+	border-top: 1pt solid #000000;   
+	border-bottom: 1pt solid #000000;   
+} 
+
+.dbnetlist .header-row
+{
+	background-color:#888888;
+}
+
+.dbnetlist .header-cell
+{
+	color:#ffffff;
+	text-align: left;
+	border:0pt solid #CCCCCC;
+	border-top: 1pt solid #000000;   
+	border-bottom: 1pt solid #000000;   
+}
+
+.dbnetlist-grid .data-cell
+{
+	color:#ffffff;
+	border-top: 1pt solid #000000;   
+	border-bottom: 1pt solid #000000;   
+}
+.dbnetlist .even
+{
+	background-color: #333333;
+}
+.dbnetlist .odd
+{
+	background-color: #1d1d1d;
+}
+.dbnetlist-grid .highlight   
+{   
+	background-color: #666;   
+}  
+.dbnetlist-grid .selected   
+{   
+	background-color: #336699;   
+	color: #FFFFFF;   
+} 
+table.dbnetlist-grid
+{
+	border-collapse:collapse;
+	border:0pt solid #CCCCCC;
+}

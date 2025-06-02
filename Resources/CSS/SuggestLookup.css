@@ -1,0 +1,35 @@
+div.suggest-lookup-container
+{
+	overflow-y : auto;
+	overflow-x : hidden;
+	background-color : #ffffff;
+	border:1px solid #888;
+}
+tr.suggest-lookup-item
+{
+	font-family:verdana;
+	font-size:small;
+	cursor : pointer
+}
+table.suggest-lookup-table
+{
+	background-color : gainsboro;
+	color : #000000;
+}
+tr.suggest-lookup-item-highlighted
+{
+	font-family:verdana;
+	font-size:small;
+	cursor : pointer;
+	background-color : #316AC5;
+	color : #ffffff;
+}
+
+div.suggest-lookup-container .highlight
+{
+	font-family:verdana;
+	font-size:small;
+	cursor : pointer;
+	background-color : #316AC5;
+	color : #ffffff;
+}

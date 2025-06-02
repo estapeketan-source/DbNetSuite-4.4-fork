@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Advanced" xml:space="preserve">
+    <value>Avanceret</value>
+    <comment>Advanced HTML Editor</comment>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Efter</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>og</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="AValueIsRequiredFor" xml:space="preserve">
+    <value>En værdi er påkrævet for</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Før</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>Imellem</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Afbryd</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Luk</value>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>Indeholder</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Kopier til udskriftsholder</value>
+  </data>
+  <data name="DataMismatch" xml:space="preserve">
+    <value>Værdien indtastet i &lt;b&gt;{0}&lt;/b&gt; er ikke gyldig for data typen</value>
+  </data>
+  <data name="DeleteDisabled" xml:space="preserve">
+    <value>Sletning af records er ikke aktiveret for denne datatype</value>
+  </data>
+  <data name="DoesNotContain" xml:space="preserve">
+    <value>Indeholder ikke</value>
+  </data>
+  <data name="DoesNotEndWith" xml:space="preserve">
+    <value>Slutter ikke med</value>
+  </data>
+  <data name="DoesNotStartWith" xml:space="preserve">
+    <value>Begynder ikke med</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="EndsWith" xml:space="preserve">
+    <value>Slutter med</value>
+  </data>
+  <data name="EqualTo" xml:space="preserve">
+    <value>Lig med</value>
+  </data>
+  <data name="OutputCurrentPageOnly" xml:space="preserve">
+    <value>Output kun denne side</value>
+  </data>
+  <data name="FailedCustomValidation" xml:space="preserve">
+    <value>Miskykket brugervalidering</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Falsk</value>
+  </data>
+  <data name="FileExceedsMaxSize" xml:space="preserve">
+    <value>Filen overstiger den tilladte maksimum størrelse.  Venligst upload en fil mindre end {0}Kb</value>
+  </data>
+  <data name="FileUpload" xml:space="preserve">
+    <value>Fil Upload</value>
+  </data>
+  <data name="FirstPage" xml:space="preserve">
+    <value>Første side</value>
+  </data>
+  <data name="GreaterThan" xml:space="preserve">
+    <value>Større end</value>
+  </data>
+  <data name="HTMLEditor" xml:space="preserve">
+    <value>HTML Editor</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="InsertDisabled" xml:space="preserve">
+    <value>Indsættelse af records er ikke tilladt for denne control</value>
+  </data>
+  <data name="IsNotNull" xml:space="preserve">
+    <value>Er ikke nul</value>
+  </data>
+  <data name="IsNull" xml:space="preserve">
+    <value>Er nul</value>
+  </data>
+  <data name="LastPage" xml:space="preserve">
+    <value>Sidste side</value>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>Mindre end</value>
+  </data>
+  <data name="MatchAllCriteria" xml:space="preserve">
+    <value>Match alle kriterier</value>
+  </data>
+  <data name="MatchAtLeastOneCriteria" xml:space="preserve">
+    <value>Match mindst een af kriterierne</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Næste side</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="NotBetween" xml:space="preserve">
+    <value>Ikke imellem</value>
+  </data>
+  <data name="NotEqualTo" xml:space="preserve">
+    <value>Ikke lig med</value>
+  </data>
+  <data name="NotGreaterThan" xml:space="preserve">
+    <value>Ikke større end</value>
+  </data>
+  <data name="NotIn" xml:space="preserve">
+    <value>Ikke i</value>
+  </data>
+  <data name="NotLessThan" xml:space="preserve">
+    <value>Ikke mindre end</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenInNewWindow" xml:space="preserve">
+    <value>Åbn i nyt vindue</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Forrige side</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Udskriv</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Record slettet</value>
+  </data>
+  <data name="RecordInserted" xml:space="preserve">
+    <value>Record indsat</value>
+  </data>
+  <data name="RecordsDeleted" xml:space="preserve">
+    <value>Records slettet</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Record opdateret</value>
+  </data>
+  <data name="RenameFile" xml:space="preserve">
+    <value>Giv fil nyt navn</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="SelectValue" xml:space="preserve">
+    <value>Vælg værdi</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Simpel</value>
+  </data>
+  <data name="StartsWith" xml:space="preserve">
+    <value>Begynder med</value>
+  </data>
+  <data name="TextEditor" xml:space="preserve">
+    <value>Tekst Editor</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Sandt</value>
+  </data>
+  <data name="UpdatesDisabled" xml:space="preserve">
+    <value>Opdatering af records er ikke aktiveret for denne control</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload </value>
+  </data>
+  <data name="UploadComplete" xml:space="preserve">
+    <value>Upload afsluttet</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Ryd</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>Af</value>
+  </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Rækker</value>
+  </data>
+  <data name="Bytes" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+  <data name="CreateFolder" xml:space="preserve">
+    <value>Opret ny folder</value>
+  </data>
+  <data name="DateNotValid" xml:space="preserve">
+    <value>Datoen er ikke gyldig</value>
+  </data>
+  <data name="DeleteFile" xml:space="preserve">
+    <value>Slet den valgte fil</value>
+  </data>
+  <data name="FileAttributes" xml:space="preserve">
+    <value>Fil egenskaber</value>
+  </data>
+  <data name="FileContent" xml:space="preserve">
+    <value>Fil indhold</value>
+  </data>
+  <data name="FilePreview" xml:space="preserve">
+    <value>Fil gennemsyn</value>
+  </data>
+  <data name="FileSearch" xml:space="preserve">
+    <value>Søg fil</value>
+  </data>
+  <data name="FileSearchResults" xml:space="preserve">
+    <value>Resultat af filsøgning</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Folder Navn</value>
+  </data>
+  <data name="Includesub-folders" xml:space="preserve">
+    <value>Inkludér underfoldere</value>
+  </data>
+  <data name="IntegerNotValid" xml:space="preserve">
+    <value>Talværdi ikke valid</value>
+  </data>
+  <data name="InvalidRange" xml:space="preserve">
+    <value>Invalid interval</value>
+  </data>
+  <data name="KB" xml:space="preserve">
+    <value>Kilobytes</value>
+  </data>
+  <data name="MB" xml:space="preserve">
+    <value>Megabytes</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Ny folder</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Sti</value>
+  </data>
+  <data name="Searchfilesonly" xml:space="preserve">
+    <value>Søg kun filer</value>
+  </data>
+  <data name="UploadAFile" xml:space="preserve">
+    <value>Upload en fil til den valgte folder</value>
+  </data>
+  <data name="AddANewRecord" xml:space="preserve">
+    <value>Tilføj ny record</value>
+  </data>
+  <data name="ApplyChangesToTheCurrentRecord" xml:space="preserve">
+    <value>Gem ændringer til den valgte record</value>
+  </data>
+  <data name="ApplyTheEnteredSearchCriteria" xml:space="preserve">
+    <value>Brug de indtastede søgekriterier</value>
+  </data>
+  <data name="ClearTheSearchCriteria" xml:space="preserve">
+    <value>Ryd søgekriterier</value>
+  </data>
+  <data name="CloseTheSearchWindow" xml:space="preserve">
+    <value>Luk søgevinduet</value>
+  </data>
+  <data name="CopyGridToClipboard" xml:space="preserve">
+    <value>Kopier gitret til udklipsholderen</value>
+  </data>
+  <data name="DeleteTheCurrentRecord" xml:space="preserve">
+    <value>Slet den nuværende record</value>
+  </data>
+  <data name="DeleteTheSelectedRecord" xml:space="preserve">
+    <value>Slet den valgte record</value>
+  </data>
+  <data name="DisplayTheSearchWindow" xml:space="preserve">
+    <value>Vis søgevinduet</value>
+  </data>
+  <data name="NextMonth" xml:space="preserve">
+    <value>Næste måned</value>
+  </data>
+  <data name="OpenTheLookupWindow" xml:space="preserve">
+    <value>Åbn søgevinduet</value>
+  </data>
+  <data name="PreviousMonth" xml:space="preserve">
+    <value>Forrige måned</value>
+  </data>
+  <data name="PrintGrid" xml:space="preserve">
+    <value>Udskriv gitret</value>
+  </data>
+  <data name="SaveTheGridInTheSelectedFormat" xml:space="preserve">
+    <value>Gem gitret i det valgte format</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Vælg data</value>
+  </data>
+  <data name="SwitchToAdvancedEditing" xml:space="preserve">
+    <value>Skift til avanceret editering</value>
+  </data>
+  <data name="SwitchToSimpleEditing" xml:space="preserve">
+    <value>Skift til simpel editering</value>
+  </data>
+  <data name="UpdateTheSelectedRecord" xml:space="preserve">
+    <value>Opdater den valgte record</value>
+  </data>
+  <data name="LinkedRecords" xml:space="preserve">
+    <value>Den valgte record kan ikke slettes, da den har relaterede records</value>
+  </data>
+  <data name="FirstRow" xml:space="preserve">
+    <value>Første række</value>
+  </data>
+  <data name="LastRow" xml:space="preserve">
+    <value>Sidste række</value>
+  </data>
+  <data name="NextRow" xml:space="preserve">
+    <value>Næste række</value>
+  </data>
+  <data name="PreviousRow" xml:space="preserve">
+    <value>Forrige række</value>
+  </data>
+  <data name="ARowMustBeSelected" xml:space="preserve">
+    <value>En række skal vælges</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Bekræft at du vil slette de(n) valgte records!</value>
+  </data>
+  <data name="GridCopied" xml:space="preserve">
+    <value>Gitret er blevet kopieret til udklipsholderen</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="UnappliedChanges" xml:space="preserve">
+    <value>Du har ændringer der ikke er gemt. Vil du afbryde?</value>
+  </data>
+  <data name="ExampleFormat" xml:space="preserve">
+    <value>Indtastede værdi skal være i følgende format</value>
+  </data>
+  <data name="DeleteDocument" xml:space="preserve">
+    <value>Slet dokument</value>
+  </data>
+  <data name="DeleteFileConfirm" xml:space="preserve">
+    <value>Bekræft at du vil slette den valgte fil</value>
+  </data>
+  <data name="DeleteFolderConfirm" xml:space="preserve">
+    <value>Bekræft at du vil slette den valgte folder og alle filer diri</value>
+  </data>
+  <data name="EditDialogTitle" xml:space="preserve">
+    <value>Redigering</value>
+  </data>
+  <data name="FileAccessDenied" xml:space="preserve">
+    <value>Tilgang til filen er nægtet</value>
+  </data>
+  <data name="FileDeletionDenied" xml:space="preserve">
+    <value>Sletning af filen er nægtet</value>
+  </data>
+  <data name="NoFileSelected" xml:space="preserve">
+    <value>Ingen  fil eller folder er blevet valgt</value>
+  </data>
+  <data name="OpenEditorWindow" xml:space="preserve">
+    <value>Åbn editeringsvinduet</value>
+  </data>
+  <data name="UploadDocument" xml:space="preserve">
+    <value>Upload dokument</value>
+  </data>
+  <data name="ValueRequired" xml:space="preserve">
+    <value>En værdi kræves i dette feldt</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="DocumentCopied" xml:space="preserve">
+    <value>Dokument kopieret til udklipsholder</value>
+  </data>
+  <data name="DocumentNotCopied" xml:space="preserve">
+    <value>Denne dokumenttype kan ikke kopieres</value>
+  </data>
+  <data name="DuplicateFileName" xml:space="preserve">
+    <value>En fil med dette navn findes allerede. Vælg et andet navn.</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>Der opstod en fejl</value>
+  </data>
+  <data name="ExtensionChangeWarning" xml:space="preserve">
+    <value>Det er ikke tilladt at ændre filtypen. Vær sikker på, at filtypen er den samme som oprindeligt</value>
+  </data>
+  <data name="FileUploaded" xml:space="preserve">
+    <value>Fil uploaded</value>
+  </data>
+  <data name="InvalidFileType" xml:space="preserve">
+    <value>Du kan ikke uploade en fil af denne type</value>
+  </data>
+  <data name="Lookup" xml:space="preserve">
+    <value>Slå op</value>
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>Ingen records fundet</value>
+  </data>
+  <data name="OverwritePrompt" xml:space="preserve">
+    <value>En fil med dette navn findes allerede. Vil du overskrive denne fil?</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Vælg</value>
+  </data>
+  <data name="SelectAFile" xml:space="preserve">
+    <value>Venligst vælg en fil til upload</value>
+  </data>
+  <data name="ShowCalendar" xml:space="preserve">
+    <value>Vis kalender</value>
+  </data>
+  <data name="SimpleSearch" xml:space="preserve">
+    <value>Simpel søgning</value>
+  </data>
+  <data name="StandardSearch" xml:space="preserve">
+    <value>Standard søgning</value>
+  </data>
+  <data name="FolderNotEmpty" xml:space="preserve">
+    <value>Folderen er ikke tom</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>En fil med det navn eksisterer allerede.</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Font familie</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font størrelse</value>
+  </data>
+  <data name="CheckSpelling" xml:space="preserve">
+    <value>Kontrollér stavning</value>
+  </data>
+  <data name="SpellCheck" xml:space="preserve">
+    <value>Stavekontrol</value>
+  </data>
+  <data name="AddNewSearch" xml:space="preserve">
+    <value>Tilføj nye søgekriterier</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Avanceret søgning</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="ColumnPicker" xml:space="preserve">
+    <value>Kolonnevalg</value>
+  </data>
+  <data name="MergeData" xml:space="preserve">
+    <value>Merge selected records with a Word merge document</value>
+  </data>
+  <data name="OpenBrowseDialog" xml:space="preserve">
+    <value>Åbn browse dialog</value>
+  </data>
+  <data name="OpenColumnSelectionDialog" xml:space="preserve">
+    <value>Åbn kolonne valg</value>
+  </data>
+  <data name="ColumnSort" xml:space="preserve">
+    <value>Kolonne sortering</value>
+  </data>
+  <data name="OpenColumnSortDialog" xml:space="preserve">
+    <value>Åbn kolonne sortering</value>
+  </data>
+  <data name="SaveProfile" xml:space="preserve">
+    <value>Gem profil</value>
+  </data>
+  <data name="SelectProfile" xml:space="preserve">
+    <value>Vælg profil</value>
+  </data>
+  <data name="UserProfiles" xml:space="preserve">
+    <value>Bruger profiler</value>
+  </data>
+  <data name="OpenUserProfileDialog" xml:space="preserve">
+    <value>Åbn bruger profil dialog</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Forfatter</value>
+  </data>
+  <data name="AllRows" xml:space="preserve">
+    <value>Alle rækker</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Runtime konfiguration</value>
+  </data>
+  <data name="NoPaging" xml:space="preserve">
+    <value>Ingen sidedeling</value>
+  </data>
+  <data name="OpenConfigDialog" xml:space="preserve">
+    <value>Åbn runtime konfiguration</value>
+  </data>
+  <data name="OutputPageSize" xml:space="preserve">
+    <value>Output side størrelse</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>Sidevisning størrelse</value>
+  </data>
+  <data name="ChartConfig" xml:space="preserve">
+    <value>Graf konfigurering</value>
+  </data>
+  <data name="ChartGrid" xml:space="preserve">
+    <value>Åbn graf konfigurering</value>
+  </data>
+  <data name="PdfSettings" xml:space="preserve">
+    <value>PDF indstillinger</value>
+  </data>
+  <data name="CustomSave" xml:space="preserve">
+    <value>Brugerdefineret gem</value>
+  </data>
+  <data name="view" xml:space="preserve">
+    <value>oversigt</value>
+  </data>
+  <data name="ViewTheSelectedRecord" xml:space="preserve">
+    <value>Se valgte record</value>
+  </data>
+  <data name="PrintTheCurrentRecord" xml:space="preserve">
+    <value>Udskriv aktive record</value>
+  </data>
+  <data name="ViewDialogTitle" xml:space="preserve">
+    <value>Oversigt</value>
+  </data>
+  <data name="Deleterow" xml:space="preserve">
+    <value>Slet række</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Første</value>
+  </data>
+  <data name="Insertrow" xml:space="preserve">
+    <value>Indsæt række</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Sidste</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Næste</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Forrige</value>
+  </data>
+  <data name="Updaterow" xml:space="preserve">
+    <value>Opdatér række</value>
+  </data>
+  <data name="DataUploadDialog" xml:space="preserve">
+    <value>Data Upload kolonne mapning</value>
+  </data>
+  <data name="UploadData" xml:space="preserve">
+    <value>Upload data</value>
+  </data>
+</root>

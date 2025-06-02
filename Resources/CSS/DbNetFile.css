@@ -1,0 +1,161 @@
+﻿.dbnetfile *
+{
+	font-family: Verdana;
+	font-size: small;
+}
+
+.dbnetfile-tree
+{
+	border:1pt solid silver;
+}
+
+.dbnetfile .toolbar
+{
+}
+
+.dbnetfile .thumbnail
+{
+	cursor:pointer;
+}
+
+.dbnetfile .message-line
+{
+	margin-top:5px;
+}
+
+.dialog .search-criteria
+{
+}
+
+.dialog .highlight
+{
+	background-color:gold;
+}
+
+.dialog .toolbar-container
+{
+	border-top:1pt solid silver;
+}
+
+table.file-search-dialog-criteria td
+{
+	padding-left:2px;
+	padding-right:2px;
+}
+
+table.dbnetfile
+{
+	border-collapse: collapse;
+	border: 1px solid #DDDDDD;
+}
+
+.dbnetfile .toolbar
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.dbnetfile.grid .header-row
+{
+
+}
+
+.dbnetfile.grid .header-cell
+{
+	background-color: gainsboro;
+	border-bottom: 1px solid silver;
+	border-top: 1px solid silver;
+	font-weight: bold;
+	text-align: left;
+	cursor:pointer;
+}
+
+.dbnetfile.grid .even
+{
+	background-color: #F5F5F5;
+}
+
+.dbnetfile.grid .odd
+{
+	background-color: #FFFFFF;
+}
+
+.dbnetfile.grid .highlight
+{
+	background-color: khaki;
+}
+
+.dbnetfile.grid .selected
+{
+	background-color: #336699;
+	color: white;
+}
+
+.dbnetfile.grid .selected a
+{
+	color: white;
+}
+
+.dbnetfile.grid .data-cell
+{
+
+}
+
+.dbnetfile .tree-node-selected
+{
+	background-color:#316AC5;
+	color:white !important;
+}
+.dbnetfile .tree-node-highlight
+{
+	text-decoration:underline !important;
+}
+
+.dbnetfile .tree-image-cell
+{
+	width:16px;
+}
+
+.dbnetfile .tree-text-cell
+{
+	padding-left:2px;
+	color:black;
+	text-decoration:none;
+}
+
+.dbnetfile .img-link
+{
+	border:1pt solid blue;
+}
+.dbnetfile .caption
+{
+	font-size: x-small;
+}
+.dbnetfile .error
+{
+	border:1pt solid silver;
+	background-color:gold;
+	font-size:large;
+	font-weight:bold;
+}
+
+.dbnetfile .tree-icon-cell
+{
+	width:16px;
+}
+
+table.dbnetfile.tree    
+{   
+	border: 0pt;   
+} 	
+
+.dbnetfile.tree td
+{
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+.dbnetfile.tree .highlight
+{
+	background-color:transparent;
+}

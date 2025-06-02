@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Advanced" xml:space="preserve">
+    <value>Розширений</value>
+    <comment>Advanced HTML Editor</comment>
+  </data>
+	<data name="After" xml:space="preserve">
+    <value>Після</value>
+  </data>
+	<data name="And" xml:space="preserve">
+    <value>і</value>
+  </data>
+	<data name="Apply" xml:space="preserve">
+    <value>Застосувати</value>
+  </data>
+	<data name="AValueIsRequiredFor" xml:space="preserve">
+    <value>Значення необхідне для</value>
+  </data>
+	<data name="Before" xml:space="preserve">
+    <value>Перед</value>
+  </data>
+	<data name="Between" xml:space="preserve">
+    <value>Між</value>
+  </data>
+	<data name="Cancel" xml:space="preserve">
+    <value>Відмінити</value>
+  </data>
+	<data name="Close" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+	<data name="Contains" xml:space="preserve">
+    <value>Містить</value>
+  </data>
+	<data name="CopyToClipboard" xml:space="preserve">
+    <value>Скопіювати В Буфер Обміну</value>
+  </data>
+	<data name="DataMismatch" xml:space="preserve">
+    <value>Значення, введене в &lt;b&gt; (0) &lt;/ B&gt; не підходить для даного типу</value>
+  </data>
+	<data name="DeleteDisabled" xml:space="preserve">
+    <value>Видалення записів не доступне для цього контролю</value>
+  </data>
+	<data name="DoesNotContain" xml:space="preserve">
+    <value>Не містить</value>
+  </data>
+	<data name="DoesNotEndWith" xml:space="preserve">
+    <value>Не закінчується з</value>
+  </data>
+	<data name="DoesNotStartWith" xml:space="preserve">
+    <value>Не починається з</value>
+  </data>
+	<data name="Download" xml:space="preserve">
+    <value>Завантажети</value>
+  </data>
+	<data name="EndsWith" xml:space="preserve">
+    <value>Закінчується з</value>
+  </data>
+	<data name="EqualTo" xml:space="preserve">
+    <value>Дорівнює</value>
+  </data>
+	<data name="OutputCurrentPageOnly" xml:space="preserve">
+    <value>Вивести тільки поточну сторінку</value>
+  </data>
+	<data name="FailedCustomValidation" xml:space="preserve">
+    <value>Помилка користувальницької валідації</value>
+  </data>
+	<data name="False" xml:space="preserve">
+    <value>Невірно</value>
+  </data>
+	<data name="FileExceedsMaxSize" xml:space="preserve">
+    <value>Розмір файлу перевищує максимально допустимий розмір файлу. Завантажте файл менший (0) Kb</value>
+  </data>
+	<data name="FileUpload" xml:space="preserve">
+    <value>Завантаження Файлу</value>
+  </data>
+	<data name="FirstPage" xml:space="preserve">
+    <value>Перша сторінка</value>
+  </data>
+	<data name="GreaterThan" xml:space="preserve">
+    <value>Більше ніж</value>
+  </data>
+	<data name="HTMLEditor" xml:space="preserve">
+    <value>HTML Редактор</value>
+  </data>
+	<data name="In" xml:space="preserve">
+    <value>В</value>
+  </data>
+	<data name="InsertDisabled" xml:space="preserve">
+    <value>Додавання записів не доступне для цього контролю</value>
+  </data>
+	<data name="IsNotNull" xml:space="preserve">
+    <value>Е не нуль</value>
+  </data>
+	<data name="IsNull" xml:space="preserve">
+    <value>Е нуль</value>
+  </data>
+	<data name="LastPage" xml:space="preserve">
+    <value>Остання сторінка</value>
+  </data>
+	<data name="LessThan" xml:space="preserve">
+    <value>Менше ніж</value>
+  </data>
+	<data name="MatchAllCriteria" xml:space="preserve">
+    <value>Збіг за всіма критеріями</value>
+  </data>
+	<data name="MatchAtLeastOneCriteria" xml:space="preserve">
+    <value>Відповідае кринаймі одиному з критеріїв</value>
+  </data>
+	<data name="NextPage" xml:space="preserve">
+    <value>Наступна сторінка</value>
+  </data>
+	<data name="No" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+	<data name="NotBetween" xml:space="preserve">
+    <value>Не між</value>
+  </data>
+	<data name="NotEqualTo" xml:space="preserve">
+    <value>Не дорівнює</value>
+  </data>
+	<data name="NotGreaterThan" xml:space="preserve">
+    <value>Не більше ніж</value>
+  </data>
+	<data name="NotIn" xml:space="preserve">
+    <value>Не в</value>
+  </data>
+	<data name="NotLessThan" xml:space="preserve">
+    <value>Не менше ніж</value>
+  </data>
+	<data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+	<data name="OpenInNewWindow" xml:space="preserve">
+    <value>Відкрити В Новому Вікні</value>
+  </data>
+	<data name="PreviousPage" xml:space="preserve">
+    <value>Попередня сторінка</value>
+  </data>
+	<data name="Print" xml:space="preserve">
+    <value>Друк</value>
+  </data>
+	<data name="RecordDeleted" xml:space="preserve">
+    <value>Запис видалено</value>
+  </data>
+	<data name="RecordInserted" xml:space="preserve">
+    <value>Запис додано</value>
+  </data>
+	<data name="RecordsDeleted" xml:space="preserve">
+    <value>Записи видалено</value>
+  </data>
+	<data name="RecordUpdated" xml:space="preserve">
+    <value>Запис оновлено</value>
+  </data>
+	<data name="RenameFile" xml:space="preserve">
+    <value>Перейменування файла:</value>
+  </data>
+	<data name="Search" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+	<data name="SelectValue" xml:space="preserve">
+    <value>Виберіть значення</value>
+  </data>
+	<data name="Simple" xml:space="preserve">
+    <value>Простий</value>
+  </data>
+	<data name="StartsWith" xml:space="preserve">
+    <value>Починається з</value>
+  </data>
+	<data name="TextEditor" xml:space="preserve">
+    <value>Текстовий Редактор</value>
+  </data>
+	<data name="True" xml:space="preserve">
+    <value>Вірно</value>
+  </data>
+	<data name="UpdatesDisabled" xml:space="preserve">
+    <value>Оновлення записів не доступне для цього контролю</value>
+  </data>
+	<data name="Upload" xml:space="preserve">
+    <value>Завантажити</value>
+  </data>
+	<data name="UploadComplete" xml:space="preserve">
+    <value>Завантаження завершено</value>
+  </data>
+	<data name="Yes" xml:space="preserve">
+    <value>Так</value>
+  </data>
+	<data name="Clear" xml:space="preserve">
+    <value>Очищати</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+	<data name="Of" xml:space="preserve">
+    <value>з</value>
+  </data>
+	<data name="Rows" xml:space="preserve">
+    <value>Строки</value>
+  </data>
+	<data name="Bytes" xml:space="preserve">
+    <value>Байти</value>
+  </data>
+	<data name="CreateFolder" xml:space="preserve">
+    <value>Створити нову папку</value>
+  </data>
+	<data name="DateNotValid" xml:space="preserve">
+    <value>Значення дати не е дійсне</value>
+  </data>
+	<data name="DeleteFile" xml:space="preserve">
+    <value>Видалити вибраний файл</value>
+  </data>
+	<data name="FileAttributes" xml:space="preserve">
+    <value>Атрибути Файлу</value>
+  </data>
+	<data name="FileContent" xml:space="preserve">
+    <value>Вміст Файлу</value>
+  </data>
+	<data name="FilePreview" xml:space="preserve">
+    <value>Перегляд Файлу</value>
+  </data>
+	<data name="FileSearch" xml:space="preserve">
+    <value>Пошук Файлу</value>
+  </data>
+	<data name="FileSearchResults" xml:space="preserve">
+    <value>Ресултати Пошуки Файлу</value>
+  </data>
+	<data name="FolderName" xml:space="preserve">
+    <value>Ім'я папки</value>
+  </data>
+	<data name="Includesub-folders" xml:space="preserve">
+    <value>Містуть в собі під-папки</value>
+  </data>
+	<data name="IntegerNotValid" xml:space="preserve">
+    <value>Ціле значення не дійсне</value>
+  </data>
+	<data name="InvalidRange" xml:space="preserve">
+    <value>Недопустимий діапазон</value>
+  </data>
+	<data name="KB" xml:space="preserve">
+    <value>Кбайт</value>
+  </data>
+	<data name="MB" xml:space="preserve">
+    <value>Мегабайт</value>
+  </data>
+	<data name="NewFolder" xml:space="preserve">
+    <value>Нова Папка</value>
+  </data>
+	<data name="Options" xml:space="preserve">
+    <value>Опції</value>
+  </data>
+	<data name="Path" xml:space="preserve">
+    <value>Шлях</value>
+  </data>
+	<data name="Searchfilesonly" xml:space="preserve">
+    <value>Пошук файлів тільки</value>
+  </data>
+	<data name="UploadAFile" xml:space="preserve">
+    <value>Завантажити файл у цю папку</value>
+  </data>
+	<data name="AddANewRecord" xml:space="preserve">
+    <value>Додати новий запис</value>
+  </data>
+	<data name="ApplyChangesToTheCurrentRecord" xml:space="preserve">
+    <value>Застосувати зміни до поточного запису</value>
+  </data>
+	<data name="ApplyTheEnteredSearchCriteria" xml:space="preserve">
+    <value>Застосувати введені критерії пошуку</value>
+  </data>
+	<data name="ClearTheSearchCriteria" xml:space="preserve">
+    <value>Очистети критерії пошуку</value>
+  </data>
+	<data name="CloseTheSearchWindow" xml:space="preserve">
+    <value>Закрити вікно пошуку</value>
+  </data>
+	<data name="CopyGridToClipboard" xml:space="preserve">
+    <value>Скопіювати таблицю в буфер обміну</value>
+  </data>
+	<data name="DeleteTheCurrentRecord" xml:space="preserve">
+    <value>Видалення поточного запису</value>
+  </data>
+	<data name="DeleteTheSelectedRecord" xml:space="preserve">
+    <value>Видалити вибраний запис</value>
+  </data>
+	<data name="DisplayTheSearchWindow" xml:space="preserve">
+    <value>Показати вікно пошуку</value>
+  </data>
+	<data name="NextMonth" xml:space="preserve">
+    <value>Наступний місяць</value>
+  </data>
+	<data name="OpenTheLookupWindow" xml:space="preserve">
+    <value>Відкрити вікно пошуку</value>
+  </data>
+	<data name="PreviousMonth" xml:space="preserve">
+    <value>Попередній місяць</value>
+  </data>
+	<data name="PrintGrid" xml:space="preserve">
+    <value>Друк таблиці</value>
+  </data>
+	<data name="SaveTheGridInTheSelectedFormat" xml:space="preserve">
+    <value>Зберегти таблицю у вибраному форматі</value>
+  </data>
+	<data name="SelectDate" xml:space="preserve">
+    <value>Виберіть дату</value>
+  </data>
+	<data name="SwitchToAdvancedEditing" xml:space="preserve">
+    <value>Переключитися на розширене редагування</value>
+  </data>
+	<data name="SwitchToSimpleEditing" xml:space="preserve">
+    <value>Переключитися до простого редагування</value>
+  </data>
+	<data name="UpdateTheSelectedRecord" xml:space="preserve">
+    <value>Оновити вибраний запис</value>
+  </data>
+	<data name="LinkedRecords" xml:space="preserve">
+    <value>Вибраний запис не може бути видалений оскільки він має пов'язані записи</value>
+  </data>
+	<data name="FirstRow" xml:space="preserve">
+    <value>Перший рядок</value>
+  </data>
+	<data name="LastRow" xml:space="preserve">
+    <value>Останній рядок</value>
+  </data>
+	<data name="NextRow" xml:space="preserve">
+    <value>Наступний рядок</value>
+  </data>
+	<data name="PreviousRow" xml:space="preserve">
+    <value>Попередній рядок</value>
+  </data>
+	<data name="ARowMustBeSelected" xml:space="preserve">
+    <value>Рядок повинен бути вибраний</value>
+  </data>
+	<data name="ConfirmDelete" xml:space="preserve">
+    <value>Ви впевнені, що хочете видалити обраний запис (и)?</value>
+  </data>
+	<data name="GridCopied" xml:space="preserve">
+    <value>Таблиця була скопійована в буфер обміну</value>
+  </data>
+	<data name="Page" xml:space="preserve">
+    <value>Сторінка</value>
+  </data>
+	<data name="Record" xml:space="preserve">
+    <value>Запис</value>
+  </data>
+	<data name="UnappliedChanges" xml:space="preserve">
+    <value>Ви маєте невиконані зміни. Скасувати?</value>
+  </data>
+	<data name="ExampleFormat" xml:space="preserve">
+    <value>Введене значення повинне бути в наступному форматі</value>
+  </data>
+	<data name="DeleteDocument" xml:space="preserve">
+    <value>Видалити документ</value>
+  </data>
+	<data name="DeleteFileConfirm" xml:space="preserve">
+    <value>Підтвердіть, що ви хочете видалити вибраний файл</value>
+  </data>
+	<data name="DeleteFolderConfirm" xml:space="preserve">
+    <value>Підтвердіть, що ви хочете видалити вибрану папку і весь її вміст</value>
+  </data>
+	<data name="EditDialogTitle" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+	<data name="FileAccessDenied" xml:space="preserve">
+    <value>Доступ до файлу був заборонений</value>
+  </data>
+	<data name="FileDeletionDenied" xml:space="preserve">
+    <value>Видалення Файлу Було Заборонено</value>
+  </data>
+	<data name="NoFileSelected" xml:space="preserve">
+    <value>Не було вибрано файлу або папки</value>
+  </data>
+	<data name="OpenEditorWindow" xml:space="preserve">
+    <value>Відкрийте вікно редактора</value>
+  </data>
+	<data name="UploadDocument" xml:space="preserve">
+    <value>Завантажити документ</value>
+  </data>
+	<data name="ValueRequired" xml:space="preserve">
+    <value>Значення є обовязковим в цому полі</value>
+  </data>
+	<data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+	<data name="DocumentCopied" xml:space="preserve">
+    <value> Документ зкопійобаний в буфер обміну</value>
+  </data>
+	<data name="DocumentNotCopied" xml:space="preserve">
+    <value>Копіювання не підтримується для даного типу документа</value>
+  </data>
+	<data name="DuplicateFileName" xml:space="preserve">
+    <value>Файл з такою назвою вже існує. Будь ласка, виберіть інше ім'я.</value>
+  </data>
+	<data name="ErrorOccured" xml:space="preserve">
+    <value>Виникла помилка</value>
+  </data>
+	<data name="ExtensionChangeWarning" xml:space="preserve">
+    <value>Зміна розширення файлів не допускається. Будь ласка, переконайтеся, нове розширення відповідае старий.</value>
+  </data>
+	<data name="FileUploaded" xml:space="preserve">
+    <value>Файл завантажений</value>
+  </data>
+	<data name="InvalidFileType" xml:space="preserve">
+    <value>Ви не можете завантажувати файли цього типу</value>
+  </data>
+	<data name="Lookup" xml:space="preserve">
+    <value>Пошук</value>
+  </data>
+	<data name="NoRecordsFound" xml:space="preserve">
+    <value>Запису не знайдено</value>
+  </data>
+	<data name="OverwritePrompt" xml:space="preserve">
+    <value>Файл з такою назвою вже існує. Хочете перезаписати його?</value>
+  </data>
+	<data name="Select" xml:space="preserve">
+    <value>Виберіть</value>
+  </data>
+	<data name="SelectAFile" xml:space="preserve">
+    <value>Будь ласка, виберіть файл для завантаження.</value>
+  </data>
+	<data name="ShowCalendar" xml:space="preserve">
+    <value>Показати календар</value>
+  </data>
+	<data name="SimpleSearch" xml:space="preserve">
+    <value>Простий Пошук</value>
+  </data>
+	<data name="StandardSearch" xml:space="preserve">
+    <value>Стандартний Пошук</value>
+  </data>
+	<data name="FolderNotEmpty" xml:space="preserve">
+    <value>Folder is not empty</value>
+  </data>
+	<data name="FileExists" xml:space="preserve">
+    <value>A file with this name already exists.</value>
+  </data>
+	<data name="FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+	<data name="FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+	<data name="CheckSpelling" xml:space="preserve">
+    <value>Check spelling</value>
+  </data>
+	<data name="SpellCheck" xml:space="preserve">
+    <value>Spelling Checker</value>
+  </data>
+	<data name="AddNewSearch" xml:space="preserve">
+    <value>Add a new set of search criteria</value>
+  </data>
+	<data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+	<data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+	<data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+	<data name="ColumnPicker" xml:space="preserve">
+    <value>Column Selection</value>
+  </data>
+	<data name="MergeData" xml:space="preserve">
+    <value>Merge selected records with a Word merge document</value>
+  </data>
+	<data name="OpenBrowseDialog" xml:space="preserve">
+    <value>Open browse dialog</value>
+  </data>
+	<data name="OpenColumnSelectionDialog" xml:space="preserve">
+    <value>Open the column selection dialog</value>
+  </data>
+	<data name="ColumnSort" xml:space="preserve">
+    <value>Column Sort Selection Dialog</value>
+  </data>
+	<data name="OpenColumnSortDialog" xml:space="preserve">
+    <value>Open the column sort dialog</value>
+  </data>
+	<data name="SaveProfile" xml:space="preserve">
+    <value>Save Profile</value>
+  </data>
+	<data name="SelectProfile" xml:space="preserve">
+    <value>Select Profile</value>
+  </data>
+	<data name="UserProfiles" xml:space="preserve">
+    <value>User Profiles</value>
+  </data>
+	<data name="OpenUserProfileDialog" xml:space="preserve">
+    <value>Open User Profile dialog</value>
+  </data>
+	<data name="Author" xml:space="preserve">
+    <value>titanko@gmail.com</value>
+    <comment></comment>
+  </data>
+</root>

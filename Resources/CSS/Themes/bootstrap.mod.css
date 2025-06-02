@@ -1,0 +1,318 @@
+﻿.ui-dialog input,
+.ui-dialog select,
+.ui-dialog td,
+.ui-dialog-title,
+.dbnetlist-grid td,
+.dbnetgrid td
+{
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.ui-widget *
+{
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.ui-widget-header *
+{
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.dbnetlist-grid th,
+.dbnetlist-grid td,
+.table-condensed th,
+.table-condensed td {
+  border-top: 1px solid #dddddd !important;
+}
+
+
+select {
+  width: auto;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  margin-bottom: 0px;
+}
+
+.dbnetgrid .aggregate-label {
+    font-weight: bold;
+}
+
+.dbnetgrid .aggregate-label-value {
+    padding-left: 5px;
+}
+
+.dbnetgrid .aggregate-cell {
+    font-weight: bold;
+}
+
+.table {
+    width: auto;
+}
+
+table.dbnetgrid {
+    margin-top: 5px;
+}
+
+th.header-cell
+{
+    padding:0px;
+}
+
+.header-cell td, 
+.header-cell-table th, 
+.header-cell-table td, 
+.edit-field-table td, 
+.inline-edit-toolbar td, 
+.path_segment_row td, 
+.toolbar td {
+    border-top: 0px solid #DDDDDD !important;
+}
+
+.dbnetlist .header-cell
+{
+	text-align: left;
+	border:0pt solid #CCCCCC;
+    border-top: 0px solid #DDDDDD;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 4px 5px;
+}
+
+.edit-field-table td,.inline-edit-toolbar td, .toolbar td {
+    padding:2px;
+}
+
+td.edit-cell {
+    padding:0px;
+}
+
+.button-table td {
+    padding:0px;
+}
+
+
+.dbnetlist tr.selected,
+.dbnetgrid .selected
+{
+	background-color: #ddd;
+}
+
+.asc-sort-sequence-image {
+	width:20px;
+	background: url(light.Asc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.desc-sort-sequence-image {
+	width:20px;
+	background: url(light.Desc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.dbnetlist-grid tr.highlight,
+.dbnetsuite .highlight
+{
+	background-color:#eee;
+}
+
+.dbnetgrid .group-header-cell
+{
+	background-color: #FFCC66;
+	color:#336699;
+	font-weight:bold;
+}
+
+input, textarea, .uneditable-input {
+    width: auto;
+}
+
+.dbnetgrid-message-box, .message-line
+{
+    margin-bottom: 0px;
+    padding: 4px 35px 4px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.dbnetgrid-message-box
+{
+    margin-bottom: 0px;
+}
+
+.toolbar {
+    margin: 10px 0px;
+}
+
+.dbnetsuite .message-line {
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    color: #3A87AD;
+}
+
+table.dbnetedit td {
+    border-top: 0px solid #DDDDDD;
+}
+
+.dbnetedit .audit-panel
+{
+	border-top:1pt solid silver;
+	margin-top:5px;
+	padding-top:2px;
+	height:24px;
+}
+
+.dbnetedit table.audit
+{
+	float:right;
+}
+
+div.updated-by-audit, div.updated-audit, div.created-by-audit, div.created-audit
+{
+	margin-left:5px;
+	padding:2px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	background-color:#eee;
+	color:#111;
+	white-space:nowrap;
+    border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height:20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+td.updated-by-audit, td.updated-audit, td.created-by-audit, td.created-audit
+{
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	margin-left:5px;
+	background-color:#eee;
+	color:#111;
+	white-space:nowrap;
+    border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height:20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+img.audit-history
+{
+	padding-left:2px;
+	cursor:pointer;
+}
+
+table.audit-history
+{
+	background-color:#fff;
+	border-collapse:collapse;
+}
+
+table.audit-history td
+{
+	padding:3px;
+	border:1pt solid #aaa; 
+}
+
+table.audit-history tr.odd
+{
+	background-color:#eee;
+}
+
+
+
+table.dbnetlist-tree
+{
+	border:0pt solid #CCCCCC;
+}
+.dbnetlist-grid .highlight
+{
+	background-color: khaki;
+}
+.dbnetlist-tree .highlight
+{
+	background-color: #FFFFFF;
+}
+.dbnetlist .selected
+{
+	background-color: #336699;
+	color: white;
+}
+.dbnetlist .tree-cell
+{
+	background-color:white;
+}
+.dbnetlist .header-tree-image-cell,
+.dbnetlist .header-tree-cell
+{
+	background-color:white;
+}
+
+.dbnetlist .selectable-link 
+{
+	color:#000000;
+	cursor:pointer;
+}
+.dbnetlist .expand-button 
+{
+	cursor:pointer;
+}
+.dbnetlist .collapse-button 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-node-open 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-node-close 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-last-node-open 
+{
+	cursor:pointer;
+}
+.dbnetlist .tree-last-node-close
+{
+	cursor:pointer;
+}
+
+.browse-panel {
+    background-color:#fff;
+}
+

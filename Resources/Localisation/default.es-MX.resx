@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Advanced" xml:space="preserve">
+    <value>Avanzado</value>
+    <comment>Advanced HTML Editor</comment>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Despues</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="AValueIsRequiredFor" xml:space="preserve">
+    <value>Se requiere valor para</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Antes</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>Entre</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>Contiene</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Copiar al portapapeles</value>
+  </data>
+  <data name="DataMismatch" xml:space="preserve">
+    <value>El valor capturado en &lt;b&gt;{0}&lt;/b&gt; no es valido para el tipo de datos</value>
+  </data>
+  <data name="DeleteDisabled" xml:space="preserve">
+    <value>Eliminado de registros no habilitado</value>
+  </data>
+  <data name="DoesNotContain" xml:space="preserve">
+    <value>No Contiene</value>
+  </data>
+  <data name="DoesNotEndWith" xml:space="preserve">
+    <value>No termina con</value>
+  </data>
+  <data name="DoesNotStartWith" xml:space="preserve">
+    <value>No inicia con</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="EndsWith" xml:space="preserve">
+    <value>Termina con</value>
+  </data>
+  <data name="EqualTo" xml:space="preserve">
+    <value>Igual a</value>
+  </data>
+  <data name="OutputCurrentPageOnly" xml:space="preserve">
+    <value>Sacar página actual unicamente</value>
+  </data>
+  <data name="FailedCustomValidation" xml:space="preserve">
+    <value>Fallo la validación personalizada</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Falso</value>
+  </data>
+  <data name="FileExceedsMaxSize" xml:space="preserve">
+    <value>El tamaño del archivo excede el máximo permitido.  Favor de subir un archivo menor a {0}Kb</value>
+  </data>
+  <data name="FileUpload" xml:space="preserve">
+    <value>Subir archivo</value>
+  </data>
+  <data name="FirstPage" xml:space="preserve">
+    <value>Primer página</value>
+  </data>
+  <data name="GreaterThan" xml:space="preserve">
+    <value>Mayor que</value>
+  </data>
+  <data name="HTMLEditor" xml:space="preserve">
+    <value>Editor de HTML</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="InsertDisabled" xml:space="preserve">
+    <value>La inserción de registros no esta habilitada para este control</value>
+  </data>
+  <data name="IsNotNull" xml:space="preserve">
+    <value>No es nulo</value>
+  </data>
+  <data name="IsNull" xml:space="preserve">
+    <value>Es nulo</value>
+  </data>
+  <data name="LastPage" xml:space="preserve">
+    <value>Última página</value>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>Menor que</value>
+  </data>
+  <data name="MatchAllCriteria" xml:space="preserve">
+    <value>Coincidir con todos los criterios</value>
+  </data>
+  <data name="MatchAtLeastOneCriteria" xml:space="preserve">
+    <value>Coincidir por lo menos con un criterio</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Siguiente página</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NotBetween" xml:space="preserve">
+    <value>No esta entre</value>
+  </data>
+  <data name="NotEqualTo" xml:space="preserve">
+    <value>Diferente a </value>
+  </data>
+  <data name="NotGreaterThan" xml:space="preserve">
+    <value>No Mayor que</value>
+  </data>
+  <data name="NotIn" xml:space="preserve">
+    <value>No en</value>
+  </data>
+  <data name="NotLessThan" xml:space="preserve">
+    <value>No Menor QUe</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenInNewWindow" xml:space="preserve">
+    <value>Abrir en nueva ventana</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Página previa</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Registro eliminado</value>
+  </data>
+  <data name="RecordInserted" xml:space="preserve">
+    <value>Registro insertado</value>
+  </data>
+  <data name="RecordsDeleted" xml:space="preserve">
+    <value>Registros Eliminados</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Registro Actualizado</value>
+  </data>
+  <data name="RenameFile" xml:space="preserve">
+    <value>Renombrar archivo:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="SelectValue" xml:space="preserve">
+    <value>Seleccionar Valor</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="StartsWith" xml:space="preserve">
+    <value>Empieza con</value>
+  </data>
+  <data name="TextEditor" xml:space="preserve">
+    <value>Editor de Texto</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Verdadero</value>
+  </data>
+  <data name="UpdatesDisabled" xml:space="preserve">
+    <value>El actualizar registros no esta habilitado para este control</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="UploadComplete" xml:space="preserve">
+    <value>Subir archivo terminado</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Renglones</value>
+  </data>
+  <data name="Bytes" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+  <data name="CreateFolder" xml:space="preserve">
+    <value>Crear nueva carpeta</value>
+  </data>
+  <data name="DateNotValid" xml:space="preserve">
+    <value>Valor de fecha no valido</value>
+  </data>
+  <data name="DeleteFile" xml:space="preserve">
+    <value>Eliminar el archivo actualmente seleccionado</value>
+  </data>
+  <data name="FileAttributes" xml:space="preserve">
+    <value>Atributos de archivo</value>
+  </data>
+  <data name="FileContent" xml:space="preserve">
+    <value>Contenido del archivo</value>
+  </data>
+  <data name="FilePreview" xml:space="preserve">
+    <value>Vista previa del archivo</value>
+  </data>
+  <data name="FileSearch" xml:space="preserve">
+    <value>Busqueda de archivo</value>
+  </data>
+  <data name="FileSearchResults" xml:space="preserve">
+    <value>Resultados de la busqueda de archivos</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Nombre de la carpeta</value>
+  </data>
+  <data name="Includesub-folders" xml:space="preserve">
+    <value>Incluir sub-carpetas</value>
+  </data>
+  <data name="IntegerNotValid" xml:space="preserve">
+    <value>Valor entero no valido</value>
+  </data>
+  <data name="InvalidRange" xml:space="preserve">
+    <value>Rango invalido</value>
+  </data>
+  <data name="KB" xml:space="preserve">
+    <value>Kilobytes</value>
+  </data>
+  <data name="MB" xml:space="preserve">
+    <value>Megabytes</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Nueva carpeta</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Ruta</value>
+  </data>
+  <data name="Searchfilesonly" xml:space="preserve">
+    <value>Buscar solo archivos</value>
+  </data>
+  <data name="UploadAFile" xml:space="preserve">
+    <value>Subir un archivo a la carpeta actual</value>
+  </data>
+  <data name="AddANewRecord" xml:space="preserve">
+    <value>Agregar un nuevo registro</value>
+  </data>
+  <data name="ApplyChangesToTheCurrentRecord" xml:space="preserve">
+    <value>Aplicar cambios al registro actual</value>
+  </data>
+  <data name="ApplyTheEnteredSearchCriteria" xml:space="preserve">
+    <value>Aplicar los criterios de busqueda capturados</value>
+  </data>
+  <data name="ClearTheSearchCriteria" xml:space="preserve">
+    <value>Limpiar los criterios de busqueda</value>
+  </data>
+  <data name="CloseTheSearchWindow" xml:space="preserve">
+    <value>Cerrar la ventana de busqueda</value>
+  </data>
+  <data name="CopyGridToClipboard" xml:space="preserve">
+    <value>Copiar listado al porta-papeles</value>
+  </data>
+  <data name="DeleteTheCurrentRecord" xml:space="preserve">
+    <value>Eliminar el registro actual</value>
+  </data>
+  <data name="DeleteTheSelectedRecord" xml:space="preserve">
+    <value>Eliminar el registro seleccionado</value>
+  </data>
+  <data name="DisplayTheSearchWindow" xml:space="preserve">
+    <value>Mostrar la ventana de busquedas</value>
+  </data>
+  <data name="NextMonth" xml:space="preserve">
+    <value>Siguiente mes</value>
+  </data>
+  <data name="OpenTheLookupWindow" xml:space="preserve">
+    <value>Abrir la ventana lookup</value>
+  </data>
+  <data name="PreviousMonth" xml:space="preserve">
+    <value>Mes previo</value>
+  </data>
+  <data name="PrintGrid" xml:space="preserve">
+    <value>Imprimir listado</value>
+  </data>
+  <data name="SaveTheGridInTheSelectedFormat" xml:space="preserve">
+    <value>Grabar el listado en el formato seleccionado</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Seleccionar fecha</value>
+  </data>
+  <data name="SwitchToAdvancedEditing" xml:space="preserve">
+    <value>Cambiar a edicion avanzada</value>
+  </data>
+  <data name="SwitchToSimpleEditing" xml:space="preserve">
+    <value>Cambiar a edición simplificada</value>
+  </data>
+  <data name="UpdateTheSelectedRecord" xml:space="preserve">
+    <value>Actualizar el registro seleccionado</value>
+  </data>
+  <data name="LinkedRecords" xml:space="preserve">
+    <value>El registro no puede ser eliminado porque contiene registros relacionados</value>
+  </data>
+  <data name="FirstRow" xml:space="preserve">
+    <value>Primer renglon</value>
+  </data>
+  <data name="LastRow" xml:space="preserve">
+    <value>Ultimo renglon</value>
+  </data>
+  <data name="NextRow" xml:space="preserve">
+    <value>Siguiente renglon</value>
+  </data>
+  <data name="PreviousRow" xml:space="preserve">
+    <value>Renglon previo</value>
+  </data>
+  <data name="ARowMustBeSelected" xml:space="preserve">
+    <value>Un renglon debe ser seleccionado</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Esta seguro de eliminar el registro?</value>
+  </data>
+  <data name="GridCopied" xml:space="preserve">
+    <value>El listado ha sido copiado al porta-papeles</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="UnappliedChanges" xml:space="preserve">
+    <value>Hay cambios no aplicados, Descartarlos?</value>
+  </data>
+  <data name="ExampleFormat" xml:space="preserve">
+    <value>El valor capturado debe ser en el siguiente formato</value>
+  </data>
+  <data name="DeleteDocument" xml:space="preserve">
+    <value>Eliminar documento</value>
+  </data>
+  <data name="DeleteFileConfirm" xml:space="preserve">
+    <value>Favor de confirmar la eliminacion del archivo seleccionado</value>
+  </data>
+  <data name="DeleteFolderConfirm" xml:space="preserve">
+    <value>Favor de confirmar la eliminacion del folder seleccionado y todos sus contenidos</value>
+  </data>
+  <data name="EditDialogTitle" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="FileAccessDenied" xml:space="preserve">
+    <value>Accesos al archivo ha sido negado</value>
+  </data>
+  <data name="FileDeletionDenied" xml:space="preserve">
+    <value>Eliminado de archivos ha sido negado</value>
+  </data>
+  <data name="NoFileSelected" xml:space="preserve">
+    <value>No se ha seleccionado archivo o carpeta</value>
+  </data>
+  <data name="OpenEditorWindow" xml:space="preserve">
+    <value>Abrir la ventana del editor</value>
+  </data>
+  <data name="UploadDocument" xml:space="preserve">
+    <value>Subir documento</value>
+  </data>
+  <data name="ValueRequired" xml:space="preserve">
+    <value>Un valor es requerido para este campo</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="DocumentCopied" xml:space="preserve">
+    <value>Documento copiado al porta-papeles</value>
+  </data>
+  <data name="DocumentNotCopied" xml:space="preserve">
+    <value>Copiado no soportado para el tipo de documento</value>
+  </data>
+  <data name="DuplicateFileName" xml:space="preserve">
+    <value>Un archivo con ese nombre ya existe. Favor de seleccionar otro nombre.</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>Ocurrio un error</value>
+  </data>
+  <data name="ExtensionChangeWarning" xml:space="preserve">
+    <value>Cambiar las extensiones de archivo no esta permitido. Favor de asegurarse que la nueva extensión coincida con la anterior.</value>
+  </data>
+  <data name="FileUploaded" xml:space="preserve">
+    <value>Archivo subido</value>
+  </data>
+  <data name="InvalidFileType" xml:space="preserve">
+    <value>No puedes subir archivos de este tipo</value>
+  </data>
+  <data name="Lookup" xml:space="preserve">
+    <value>Lookup</value>
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>No se encontrarón registros</value>
+  </data>
+  <data name="OverwritePrompt" xml:space="preserve">
+    <value>Un archivo con ese nombre ya existe.  Deseas sobre-escribirlo?</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="SelectAFile" xml:space="preserve">
+    <value>Favor de seleccionar archivo a subirt</value>
+  </data>
+  <data name="ShowCalendar" xml:space="preserve">
+    <value>Mostrar calendario</value>
+  </data>
+  <data name="SimpleSearch" xml:space="preserve">
+    <value>Busqueda simplificada</value>
+  </data>
+  <data name="StandardSearch" xml:space="preserve">
+    <value>Busqueda estandard</value>
+  </data>
+  <data name="FolderNotEmpty" xml:space="preserve">
+    <value>Folder is not empty</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>A file with this name already exists.</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="CheckSpelling" xml:space="preserve">
+    <value>Check spelling</value>
+  </data>
+  <data name="SpellCheck" xml:space="preserve">
+    <value>Spelling Checker</value>
+  </data>
+  <data name="AddNewSearch" xml:space="preserve">
+    <value>Add a new set of search criteria</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="ColumnPicker" xml:space="preserve">
+    <value>Column Selection</value>
+  </data>
+  <data name="MergeData" xml:space="preserve">
+    <value>Merge selected records with a Word merge document</value>
+  </data>
+  <data name="OpenBrowseDialog" xml:space="preserve">
+    <value>Open browse dialog</value>
+  </data>
+  <data name="OpenColumnSelectionDialog" xml:space="preserve">
+    <value>Open the column selection dialog</value>
+  </data>
+  <data name="ColumnSort" xml:space="preserve">
+    <value>Column Sort Selection Dialog</value>
+  </data>
+  <data name="OpenColumnSortDialog" xml:space="preserve">
+    <value>Open the column sort dialog</value>
+  </data>
+  <data name="SaveProfile" xml:space="preserve">
+    <value>Save Profile</value>
+  </data>
+  <data name="SelectProfile" xml:space="preserve">
+    <value>Select Profile</value>
+  </data>
+  <data name="UserProfiles" xml:space="preserve">
+    <value>User Profiles</value>
+  </data>
+  <data name="OpenUserProfileDialog" xml:space="preserve">
+    <value>Open User Profile dialog</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>marioe2000@hotmail.com</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+</root>

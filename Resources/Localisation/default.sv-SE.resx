@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Advanced" xml:space="preserve">
+    <value>Avancerad</value>
+    <comment>Advanced HTML Editor</comment>
+  </data>
+	<data name="After" xml:space="preserve">
+    <value>Efter</value>
+  </data>
+	<data name="And" xml:space="preserve">
+    <value>och</value>
+  </data>
+	<data name="Apply" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+	<data name="AValueIsRequiredFor" xml:space="preserve">
+    <value>Ett värde krävs för</value>
+  </data>
+	<data name="Before" xml:space="preserve">
+    <value>Före</value>
+  </data>
+	<data name="Between" xml:space="preserve">
+    <value>Mellan</value>
+  </data>
+	<data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+	<data name="Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+	<data name="Contains" xml:space="preserve">
+    <value>Innehåller</value>
+  </data>
+	<data name="CopyToClipboard" xml:space="preserve">
+    <value>Kopiera till klippbordet</value>
+  </data>
+	<data name="DataMismatch" xml:space="preserve">
+    <value>Värdet som registrerats i &lt;b&gt;{0}&lt;/b&gt; är inte godkännt för denna datatyp</value>
+  </data>
+	<data name="DeleteDisabled" xml:space="preserve">
+    <value>Borttag av en post är ej godkännt för denna kontroll</value>
+  </data>
+	<data name="DoesNotContain" xml:space="preserve">
+    <value>Innehåller inte</value>
+  </data>
+	<data name="DoesNotEndWith" xml:space="preserve">
+    <value>Slutar inte med</value>
+  </data>
+	<data name="DoesNotStartWith" xml:space="preserve">
+    <value>Börjar inte med</value>
+  </data>
+	<data name="Download" xml:space="preserve">
+    <value>Ladda net</value>
+  </data>
+	<data name="EndsWith" xml:space="preserve">
+    <value>Slutar med</value>
+  </data>
+	<data name="EqualTo" xml:space="preserve">
+    <value>Lika med</value>
+  </data>
+	<data name="OutputCurrentPageOnly" xml:space="preserve">
+    <value>Exportera aktuell sida</value>
+  </data>
+	<data name="FailedCustomValidation" xml:space="preserve">
+    <value>Anpassad validering misslyckades</value>
+  </data>
+	<data name="False" xml:space="preserve">
+    <value>Falsk</value>
+  </data>
+	<data name="FileExceedsMaxSize" xml:space="preserve">
+    <value>Filen är större än den tillåtna storleken. Vänligen ladda upp en fil som är mindre än {0}Kb</value>
+  </data>
+	<data name="FileUpload" xml:space="preserve">
+    <value>Ladda upp fil</value>
+  </data>
+	<data name="FirstPage" xml:space="preserve">
+    <value>Första sidan</value>
+  </data>
+	<data name="GreaterThan" xml:space="preserve">
+    <value>Större än</value>
+  </data>
+	<data name="HTMLEditor" xml:space="preserve">
+    <value>HTML Editor</value>
+  </data>
+	<data name="In" xml:space="preserve">
+    <value>I</value>
+  </data>
+	<data name="InsertDisabled" xml:space="preserve">
+    <value>Lägga till poster är ej aktiverat för denna kontroll</value>
+  </data>
+	<data name="IsNotNull" xml:space="preserve">
+    <value>Är inte null</value>
+  </data>
+	<data name="IsNull" xml:space="preserve">
+    <value>Är null</value>
+  </data>
+	<data name="LastPage" xml:space="preserve">
+    <value>Sista sidan</value>
+  </data>
+	<data name="LessThan" xml:space="preserve">
+    <value>Mindre än</value>
+  </data>
+	<data name="MatchAllCriteria" xml:space="preserve">
+    <value>Matcha alla villkor</value>
+  </data>
+	<data name="MatchAtLeastOneCriteria" xml:space="preserve">
+    <value>Matcha minst ett av villkoren</value>
+  </data>
+	<data name="NextPage" xml:space="preserve">
+    <value>Nästa sida</value>
+  </data>
+	<data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+	<data name="NotBetween" xml:space="preserve">
+    <value>Inte mellan</value>
+  </data>
+	<data name="NotEqualTo" xml:space="preserve">
+    <value>Inte lika med</value>
+  </data>
+	<data name="NotGreaterThan" xml:space="preserve">
+    <value>Inte större än</value>
+  </data>
+	<data name="NotIn" xml:space="preserve">
+    <value>Inte i</value>
+  </data>
+	<data name="NotLessThan" xml:space="preserve">
+    <value>Inte mindre än</value>
+  </data>
+	<data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+	<data name="OpenInNewWindow" xml:space="preserve">
+    <value>Öppna i ett nytt fönster</value>
+  </data>
+	<data name="PreviousPage" xml:space="preserve">
+    <value>Föregående sida</value>
+  </data>
+	<data name="Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+	<data name="RecordDeleted" xml:space="preserve">
+    <value>Post borttagen</value>
+  </data>
+	<data name="RecordInserted" xml:space="preserve">
+    <value>Post tillagd</value>
+  </data>
+	<data name="RecordsDeleted" xml:space="preserve">
+    <value>Poster borttagna</value>
+  </data>
+	<data name="RecordUpdated" xml:space="preserve">
+    <value>Post uppdaterad</value>
+  </data>
+	<data name="RenameFile" xml:space="preserve">
+    <value>Döp om fil:</value>
+  </data>
+	<data name="Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+	<data name="SelectValue" xml:space="preserve">
+    <value>Välj värde</value>
+  </data>
+	<data name="Simple" xml:space="preserve">
+    <value>Enkel</value>
+  </data>
+	<data name="StartsWith" xml:space="preserve">
+    <value>Börjar med</value>
+  </data>
+	<data name="TextEditor" xml:space="preserve">
+    <value>Text Editor</value>
+  </data>
+	<data name="True" xml:space="preserve">
+    <value>Sant</value>
+  </data>
+	<data name="UpdatesDisabled" xml:space="preserve">
+    <value>Uppdatera en post är inte aktiverat för denna kontroll</value>
+  </data>
+	<data name="Upload" xml:space="preserve">
+    <value>Ladda upp</value>
+  </data>
+	<data name="UploadComplete" xml:space="preserve">
+    <value>Uppladdning klar</value>
+  </data>
+	<data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+	<data name="Clear" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+	<data name="Of" xml:space="preserve">
+    <value>av</value>
+  </data>
+	<data name="Rows" xml:space="preserve">
+    <value>Rader</value>
+  </data>
+	<data name="Bytes" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+	<data name="CreateFolder" xml:space="preserve">
+    <value>Skapa en ny katalog</value>
+  </data>
+	<data name="DateNotValid" xml:space="preserve">
+    <value>Datumet är inte giltigt</value>
+  </data>
+	<data name="DeleteFile" xml:space="preserve">
+    <value>Ta bort den valda filen</value>
+  </data>
+	<data name="FileAttributes" xml:space="preserve">
+    <value>Filattribut</value>
+  </data>
+	<data name="FileContent" xml:space="preserve">
+    <value>Fil innehåll</value>
+  </data>
+	<data name="FilePreview" xml:space="preserve">
+    <value>Fil förhandsgranskning</value>
+  </data>
+	<data name="FileSearch" xml:space="preserve">
+    <value>File Search</value>
+  </data>
+	<data name="FileSearchResults" xml:space="preserve">
+    <value>Filsökningsresultat</value>
+  </data>
+	<data name="FolderName" xml:space="preserve">
+    <value>Katalognamn</value>
+  </data>
+	<data name="Includesub-folders" xml:space="preserve">
+    <value>Inkludera underkataloger</value>
+  </data>
+	<data name="IntegerNotValid" xml:space="preserve">
+    <value>Heltal är inte godkännt</value>
+  </data>
+	<data name="InvalidRange" xml:space="preserve">
+    <value>Felaktigt intervall</value>
+  </data>
+	<data name="KB" xml:space="preserve">
+    <value>Kilobytes</value>
+  </data>
+	<data name="MB" xml:space="preserve">
+    <value>Megabytes</value>
+  </data>
+	<data name="NewFolder" xml:space="preserve">
+    <value>Ny katalog</value>
+  </data>
+	<data name="Options" xml:space="preserve">
+    <value>Villkor</value>
+  </data>
+	<data name="Path" xml:space="preserve">
+    <value>Sökväg</value>
+  </data>
+	<data name="Searchfilesonly" xml:space="preserve">
+    <value>Sök bara filer</value>
+  </data>
+	<data name="UploadAFile" xml:space="preserve">
+    <value>Ladda upp en fil till aktuell katalog</value>
+  </data>
+	<data name="AddANewRecord" xml:space="preserve">
+    <value>Lägg till en ny post</value>
+  </data>
+	<data name="ApplyChangesToTheCurrentRecord" xml:space="preserve">
+    <value>Spara ändringa till aktuell post</value>
+  </data>
+	<data name="ApplyTheEnteredSearchCriteria" xml:space="preserve">
+    <value>Aktivera aktuella sökkriterier</value>
+  </data>
+	<data name="ClearTheSearchCriteria" xml:space="preserve">
+    <value>Rensa sökkriterier</value>
+  </data>
+	<data name="CloseTheSearchWindow" xml:space="preserve">
+    <value>Stäng sökfönstrer</value>
+  </data>
+	<data name="CopyGridToClipboard" xml:space="preserve">
+    <value>Kopiera tabellen till klippbordet</value>
+  </data>
+	<data name="DeleteTheCurrentRecord" xml:space="preserve">
+    <value>Ta bort aktuell post</value>
+  </data>
+	<data name="DeleteTheSelectedRecord" xml:space="preserve">
+    <value>Ta bort den valda posten</value>
+  </data>
+	<data name="DisplayTheSearchWindow" xml:space="preserve">
+    <value>Vis sökfönstret</value>
+  </data>
+	<data name="NextMonth" xml:space="preserve">
+    <value>Nästa månad</value>
+  </data>
+	<data name="OpenTheLookupWindow" xml:space="preserve">
+    <value>Open the lookup window</value>
+  </data>
+	<data name="PreviousMonth" xml:space="preserve">
+    <value>Föregående månad</value>
+  </data>
+	<data name="PrintGrid" xml:space="preserve">
+    <value>Skriv ut tabell</value>
+  </data>
+	<data name="SaveTheGridInTheSelectedFormat" xml:space="preserve">
+    <value>Spara tabellen i valt format</value>
+  </data>
+	<data name="SelectDate" xml:space="preserve">
+    <value>Väl datum</value>
+  </data>
+	<data name="SwitchToAdvancedEditing" xml:space="preserve">
+    <value>Byt till avancerad editering</value>
+  </data>
+	<data name="SwitchToSimpleEditing" xml:space="preserve">
+    <value>Byt till enkel editering</value>
+  </data>
+	<data name="UpdateTheSelectedRecord" xml:space="preserve">
+    <value>Spara aktuell psot</value>
+  </data>
+	<data name="LinkedRecords" xml:space="preserve">
+    <value>Den aktuella posten kan inte ta bort då det finns relaterade poster</value>
+  </data>
+	<data name="FirstRow" xml:space="preserve">
+    <value>Första raden</value>
+  </data>
+	<data name="LastRow" xml:space="preserve">
+    <value>Sista raden</value>
+  </data>
+	<data name="NextRow" xml:space="preserve">
+    <value>Nästa rad</value>
+  </data>
+	<data name="PreviousRow" xml:space="preserve">
+    <value>Föregående raf</value>
+  </data>
+	<data name="ARowMustBeSelected" xml:space="preserve">
+    <value>En rad måste väljas</value>
+  </data>
+	<data name="ConfirmDelete" xml:space="preserve">
+    <value>Är du säker på att du vill ta bord de valda posterna?</value>
+  </data>
+	<data name="GridCopied" xml:space="preserve">
+    <value>Tabellen har kopierats till klippbordet</value>
+  </data>
+	<data name="Page" xml:space="preserve">
+    <value>Sida</value>
+  </data>
+	<data name="Record" xml:space="preserve">
+    <value>Post</value>
+  </data>
+	<data name="UnappliedChanges" xml:space="preserve">
+    <value>Du har gjort ändringar som ej har sparats, Avbryt?</value>
+  </data>
+	<data name="ExampleFormat" xml:space="preserve">
+    <value>Registrerat värde skall vara i följande format.</value>
+  </data>
+	<data name="DeleteDocument" xml:space="preserve">
+    <value>Ta bort dolument</value>
+  </data>
+	<data name="DeleteFileConfirm" xml:space="preserve">
+    <value>Konfirmera att du vill ta bort den valda filen</value>
+  </data>
+	<data name="DeleteFolderConfirm" xml:space="preserve">
+    <value>Konfirmera att du vill ta bort den valda katalogen och dess innehåll</value>
+  </data>
+	<data name="EditDialogTitle" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+	<data name="FileAccessDenied" xml:space="preserve">
+    <value>Tillgäng till filen spärrades</value>
+  </data>
+	<data name="FileDeletionDenied" xml:space="preserve">
+    <value>Borttag av filen spärrades</value>
+  </data>
+	<data name="NoFileSelected" xml:space="preserve">
+    <value>Ingen fil eller katalog har valts</value>
+  </data>
+	<data name="OpenEditorWindow" xml:space="preserve">
+    <value>Öppna i redigeringsfönstret</value>
+  </data>
+	<data name="UploadDocument" xml:space="preserve">
+    <value>Ladda upp dokument</value>
+  </data>
+	<data name="ValueRequired" xml:space="preserve">
+    <value>Detta fält måste ha ett värde</value>
+  </data>
+	<data name="File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+	<data name="DocumentCopied" xml:space="preserve">
+    <value>Dokumentet är kopierat till klippbordet</value>
+  </data>
+	<data name="DocumentNotCopied" xml:space="preserve">
+    <value>Kopiering fungerar inte för denna dokumenttyp</value>
+  </data>
+	<data name="DuplicateFileName" xml:space="preserve">
+    <value>Det finns redan en fil med detta namn. Välj ett annat namn.</value>
+  </data>
+	<data name="ErrorOccured" xml:space="preserve">
+    <value>Ett fel inträffade</value>
+  </data>
+	<data name="ExtensionChangeWarning" xml:space="preserve">
+    <value>Ändra filändelse är ej tillåtet. Se till att filändelsen är densamma som den gamla.</value>
+  </data>
+	<data name="FileUploaded" xml:space="preserve">
+    <value>Filen är uppladdad</value>
+  </data>
+	<data name="InvalidFileType" xml:space="preserve">
+    <value>Di kan inte ladda upp en fil av denna typ</value>
+  </data>
+	<data name="Lookup" xml:space="preserve">
+    <value>Slå upp</value>
+  </data>
+	<data name="NoRecordsFound" xml:space="preserve">
+    <value>Det finns inga poster</value>
+  </data>
+	<data name="OverwritePrompt" xml:space="preserve">
+    <value>Det finns redan en fil med detta namn. Vill du skriva över den?</value>
+  </data>
+	<data name="Select" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+	<data name="SelectAFile" xml:space="preserve">
+    <value>Välj en fil som ska laddas upp</value>
+  </data>
+	<data name="ShowCalendar" xml:space="preserve">
+    <value>Visa kalender</value>
+  </data>
+	<data name="SimpleSearch" xml:space="preserve">
+    <value>Enkel sökning</value>
+  </data>
+	<data name="StandardSearch" xml:space="preserve">
+    <value>Standard sökning</value>
+  </data>
+	<data name="FolderNotEmpty" xml:space="preserve">
+    <value>Folder is not empty</value>
+  </data>
+	<data name="FileExists" xml:space="preserve">
+    <value>A file with this name already exists.</value>
+  </data>
+	<data name="FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+	<data name="FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+	<data name="CheckSpelling" xml:space="preserve">
+    <value>Check spelling</value>
+  </data>
+	<data name="SpellCheck" xml:space="preserve">
+    <value>Spelling Checker</value>
+  </data>
+	<data name="AddNewSearch" xml:space="preserve">
+    <value>Add a new set of search criteria</value>
+  </data>
+	<data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+	<data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+	<data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+	<data name="ColumnPicker" xml:space="preserve">
+    <value>Column Selection</value>
+  </data>
+	<data name="MergeData" xml:space="preserve">
+    <value>Merge selected records with a Word merge document</value>
+  </data>
+	<data name="OpenBrowseDialog" xml:space="preserve">
+    <value>Open browse dialog</value>
+  </data>
+	<data name="OpenColumnSelectionDialog" xml:space="preserve">
+    <value>Open the column selection dialog</value>
+  </data>
+	<data name="ColumnSort" xml:space="preserve">
+    <value>Column Sort Selection Dialog</value>
+  </data>
+	<data name="OpenColumnSortDialog" xml:space="preserve">
+    <value>Open the column sort dialog</value>
+  </data>
+	<data name="SaveProfile" xml:space="preserve">
+    <value>Save Profile</value>
+  </data>
+	<data name="SelectProfile" xml:space="preserve">
+    <value>Select Profile</value>
+  </data>
+	<data name="UserProfiles" xml:space="preserve">
+    <value>User Profiles</value>
+  </data>
+	<data name="OpenUserProfileDialog" xml:space="preserve">
+    <value>Open User Profile dialog</value>
+  </data>
+	<data name="Author" xml:space="preserve">
+    <value>ae@mobilasystem.se</value>
+    <comment></comment>
+  </data>
+</root>

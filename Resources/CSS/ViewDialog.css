@@ -1,0 +1,15 @@
+﻿.view-element {
+	padding:2px;
+	border: 1pt solid #7F9DB9;
+	background-color:#fff;
+	color:#000;
+}
+.view-checkbox {
+	padding:0px;
+	border: 0pt solid #7F9DB9;
+	background-color:transparent;
+	color:#000;
+}
+div.view-dialog-template {
+	display:none;
+}

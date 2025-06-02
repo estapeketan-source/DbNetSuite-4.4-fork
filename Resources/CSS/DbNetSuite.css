@@ -1,0 +1,213 @@
+﻿.ui-dialog input,
+.ui-dialog select,
+.ui-dialog td,
+.ui-dialog-title
+{
+	font-family:verdana;
+	font-size:small;
+}
+
+.ui-widget *
+{
+	font-family:verdana;
+	font-size:small;
+}
+
+.ui-widget-header *
+{
+	font-family:verdana;
+	font-size:small;
+}
+
+.dbnetsuite-message-box-content
+{
+	border:1pt solid silver;
+	background-color:whitesmoke;
+}
+.dbnetsuite .message-line
+{
+	border:1pt solid silver;
+	background-color:whitesmoke;
+	padding:2px;
+}
+
+.dbnetsuite .thumbnail
+{
+	cursor:pointer;
+}
+
+.dbnetsuite .error-content
+{
+	border:1pt solid silver;
+	background-color:white;
+	overflow-x:scroll;
+	overflow-y:scroll;
+	padding:2px;
+}
+
+.dbnetsuite .highlight
+{
+	background-color:gold;
+}
+
+.dbnetsuite .field-highlight
+{
+	border:1pt solid red;
+}
+.dbnetsuite .field-modified
+{
+	background-color:gold;
+}
+.dbnetsuite .search-toolbar
+{
+	border-top:1pt solid silver;
+}
+.dbnetsuite .upload-toolbar
+{
+	border-top:1pt solid silver;
+}
+.dbnetsuite .edit-dialog-toolbar
+{
+	border-top:1pt solid silver;
+}
+.dbnetsuite .edit-dialog-audit-panel
+{
+	border-top:1pt solid silver;
+}
+.dbnetsuite .edit-dialog-audit-panel table
+{
+	float:right;
+}
+.dbnetsuite .edit-label
+{
+	white-space:nowrap;
+}
+.dbnetsuite-dialog-button
+{
+	margin-left:5px;
+	margin-right:5px;
+	padding:10px;
+}
+.filter-text-label 
+{
+	font-weight:bold;
+	color:#336699;
+}
+.filter-text-value 
+{
+	font-weight:bold;
+}
+.filter-text-join-op
+{
+	color:dimgray;
+}
+.filter-text-advanced-join-op
+{
+	color:blue;
+}
+.column-map-header
+{
+	font-weight:bold;
+}
+
+.un-mapped
+{
+	color:#666;
+	background-color:#ddd;
+}
+
+option[default_profile="True"] { 
+    background-color: gold;
+}
+
+.sprite {background: url(csg-4f4f550b4d3f0.png) no-repeat 0 0;}
+.sprite-AddFolder{ background-position: 0 0;} 
+.sprite-Browse{ background-position: 0 -36px;} 
+.sprite-Cancel{ background-position: 0 -72px;} 
+.sprite-Chart{ background-position: 0 -108px;} 
+.sprite-Collapse{ background-position: 0 -144px; width: 11px; height: 11px; } 
+.sprite-ColumnPicker{ background-position: 0 -175px;} 
+.sprite-Down{ background-position: 0 -211px;} 
+.sprite-Expand{ background-position: 0 -247px; width: 11px; height: 11px; } 
+.sprite-FolderClosed{ background-position: 0 -278px;} 
+.sprite-FolderOpen{ background-position: 0 -314px;} 
+.sprite-GreenDown{ background-position: 0 -350px;} 
+.sprite-Help{ background-position: 0 -386px;} 
+.sprite-Left{ background-position: 0 -422px;} 
+.sprite-MailMerge{ background-position: 0 -458px;} 
+.sprite-NewFolder{ background-position: 0 -494px;} 
+.sprite-Options{ background-position: 0 -530px;} 
+.sprite-Right{ background-position: 0 -566px;} 
+.sprite-Sort{ background-position: 0 -602px;} 
+.sprite-Up{ background-position: 0 -638px;} 
+.sprite-UserProfile{ background-position: 0 -674px;} 
+.sprite-apply{ background-position: 0 -710px;} 
+.sprite-btn_down{ background-position: 0 -746px;} 
+.sprite-btn_up{ background-position: 0 -782px;} 
+.sprite-calendar{ background-position: 0 -818px;} 
+.sprite-close{ background-position: 0 -854px;} 
+.sprite-copy{ background-position: 0 -890px;} 
+.sprite-delete{ background-position: 0 -926px;} 
+.sprite-download{ background-position: 0 -962px;} 
+.sprite-edit{ background-position: 0 -998px;} 
+.sprite-find{ background-position: 0 -1034px;} 
+.sprite-first{ background-position: 0 -1070px;} 
+.sprite-folder_find{ background-position: 0 -1106px;} 
+.sprite-image_add{ background-position: 0 -1142px;} 
+.sprite-image_delete{ background-position: 0 -1178px;} 
+.sprite-insert{ background-position: 0 -1214px;} 
+.sprite-last{ background-position: 0 -1250px;} 
+.sprite-lookup{ background-position: 0 -1286px;} 
+.sprite-new_search{ background-position: 0 -1322px;} 
+.sprite-next{ background-position: 0 -1358px;} 
+.sprite-ok{ background-position: 0 -1394px;} 
+.sprite-parentfolder{ background-position: 0 -1430px;} 
+.sprite-prev{ background-position: 0 -1466px;} 
+.sprite-printer{ background-position: 0 -1502px;} 
+.sprite-refresh{ background-position: 0 -1538px;} 
+.sprite-save{ background-position: 0 -1574px;} 
+.sprite-spellcheck{ background-position: 0 -1610px;} 
+.sprite-undo{ background-position: 0 -1646px;} 
+.sprite-update{ background-position: 0 -1682px;} 
+.sprite-upload{ background-position: 0 -1718px;} 
+.sprite-view{ background-position: 0 -1754px;} 
+.sprite-window{ background-position: 0 -1790px;} 
+.sprite-zoom{ background-position: 0 -1826px;} 
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.dbnetsuite-wait-message
+{
+	background: url(ajax-loader.gif) no-repeat 4px 4px;
+	z-index:100012;
+	position: fixed;
+	top:50%;
+	left:50%;
+	height:40px;
+	width:40px;
+	background-color:#eee;
+	font-family:verdana;
+	font-size:large;
+	color:#336699; 
+	border:5px solid #aaa;
+	border-radius:10px;
+	display:none;
+}	
+
+.dbnetsuite .waiting 
+{
+	background: url(wait.gif) #E0FFFF no-repeat center;
+	position:absolute;z-index:99999;
+	border-radius:5px;
+	border:2px solid #4682B4; 
+}
+
+.selectWrap .selected {
+    background-color:#3399ff;
+    color:#fff;
+}

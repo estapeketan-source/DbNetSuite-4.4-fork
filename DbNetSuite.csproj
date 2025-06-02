@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B2744DAC-96AA-4333-9B7A-5E85958D3D84}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DbNetLink</RootNamespace>
+    <AssemblyName>DbNetLink.DbNetSuite</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WEB_UI</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\OneDrive\Documents\DbNetSuite\DbNetSuite 4.4\bin\</OutputPath>
+    <DefineConstants>TRACE;WEB_UI;NET20</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugSymbols>false</DebugSymbols>
+    <PlatformTarget>x64</PlatformTarget>
+    <DefineConstants Condition=" !$(DefineConstants.Contains(';NET')) ">$(DefineConstants);$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</DefineConstants>
+    <DefineConstants Condition=" $(DefineConstants.Contains(';NET')) ">$(DefineConstants.Remove($(DefineConstants.LastIndexOf(";NET"))));$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetTime|AnyCPU' ">
+    <OutputPath>.\bin</OutputPath>
+    <DefineConstants>TRACE;DBNETTIME WEB_UI</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetTime%28Release%29|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin</OutputPath>
+    <DefineConstants>TRACE;DBNETTIME</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetOffice%28Debug%29|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin</OutputPath>
+    <DefineConstants>TRACE;DBNETOFFICE DEBUG</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetBug%28Debug%29|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin</OutputPath>
+    <DefineConstants>TRACE;DBNETBUG</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>..\..\bin\DbNetLink.DbNetSuite.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetTime|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DbNetTime\</OutputPath>
+    <DefineConstants>TRACE;DBNETTIME</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetTime%28Release%29|x64' ">
+    <OutputPath>bin\x64\DbNetTime%28Release%29\</OutputPath>
+    <DefineConstants>TRACE;DBNETTIME</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetOffice%28Debug%29|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DbNetOffice%28Debug%29\</OutputPath>
+    <DefineConstants>TRACE;DBNETOFFICE DEBUG</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DbNetBug%28Debug%29|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DbNetBug%28Debug%29\</OutputPath>
+    <DefineConstants>TRACE;DBNETBUG</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\..\DbNetLink\Publish\DbNetTime\Nuget\lib\net20\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DataVisualization">
+      <HintPath>..\..\..\..\..\..\DbNetLink\Publish\DbNetTime\Nuget\lib\net20\System.Web.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>..\..\..\..\..\..\DbNetLink\Publish\DbNetSuite\DotNetVersion\2.0\bin\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedSearchDialog.cs" />
+    <Compile Include="BrowseDialog.cs" />
+    <Compile Include="ChartConfigDialog.cs" />
+    <Compile Include="ColumnPickerDialog.cs" />
+    <Compile Include="ColumnSortDialog.cs" />
+    <Compile Include="ConfigDialog.cs" />
+    <Compile Include="ChartDialog.cs" />
+    <Compile Include="AuditDialog.cs" />
+    <Compile Include="SessionStateManager.cs" />
+    <Compile Include="DataUriImage.cs" />
+    <Compile Include="DataUploadDialog.cs" />
+    <Compile Include="DbNetLink.DbNetData.cs" />
+    <Compile Include="dbnetlink.license.cs" />
+    <Compile Include="ViewDialog.cs" />
+    <Compile Include="CSS.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbNetButton.cs" />
+    <Compile Include="DbNetCombo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbNetEdit.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbNetFile.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbNetGrid.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbNetList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbNetSpell.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbNetSpellDialog.cs" />
+    <Compile Include="JavaScriptMinifier.cs" />
+    <Compile Include="MimeDetect\MimeType.cs" />
+    <Compile Include="MimeDetect\MimeTypeException.cs" />
+    <Compile Include="MimeDetect\MimeTypes.cs" />
+    <Compile Include="MimeDetect\MimeTypesReader.cs" />
+    <Compile Include="MimeDetect\SupportUtil.cs" />
+    <Compile Include="NewFolderDialog.cs" />
+    <Compile Include="PdfSettingsDialog.cs" />
+    <Compile Include="Plugins.cs" />
+    <Compile Include="TypeConverters.cs" />
+    <Compile Include="UI.DatabaseControl.cs" />
+    <Compile Include="UI.DbNetCombo.cs" />
+    <Compile Include="UI.DbNetFile.cs" />
+    <Compile Include="UI.DbNetEdit.cs" />
+    <Compile Include="dbnetlink.util.cs" />
+    <Compile Include="EditDialog.cs" />
+    <Compile Include="FilePreviewDialog.cs" />
+    <Compile Include="FileSearchDialog.cs" />
+    <Compile Include="FileSearchResultsDialog.cs" />
+    <Compile Include="GridEditControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HtmlEditor.cs" />
+    <Compile Include="JS.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LookupDialog.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EditField.cs" />
+    <Compile Include="Resources\Localisation\default.Designer.cs" />
+    <Compile Include="SearchDialog.cs">
+    </Compile>
+    <Compile Include="shared.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimpleSearchDialog.cs" />
+    <Compile Include="TextEditor.cs" />
+    <Compile Include="ThumbnailImage.cs" />
+    <Compile Include="UI.Component.cs" />
+    <Compile Include="UI.DbNetGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI.DbNetList.cs" />
+    <Compile Include="UI.DbNetSpell.cs" />
+    <Compile Include="UI.GridEdit.cs" />
+    <Compile Include="UploadDialog.cs" />
+    <Compile Include="UserProfileDialog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetSuite.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\DbNetSuite.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\class.js" />
+    <EmbeddedResource Include="Resources\Scripts\json2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\AddFolder.png" />
+    <EmbeddedResource Include="Resources\Images\apply.png" />
+    <EmbeddedResource Include="Resources\Images\Asc.gif" />
+    <EmbeddedResource Include="Resources\Images\calendar.png" />
+    <EmbeddedResource Include="Resources\Images\Collapse.gif" />
+    <EmbeddedResource Include="Resources\Images\copy.png" />
+    <EmbeddedResource Include="Resources\Images\dbnetcopy.gif" />
+    <EmbeddedResource Include="Resources\Images\DbNetGrid.bmp" />
+    <EmbeddedResource Include="Resources\Images\Delete-old.png" />
+    <EmbeddedResource Include="Resources\Images\delete.png" />
+    <EmbeddedResource Include="Resources\Images\Desc.gif" />
+    <EmbeddedResource Include="Resources\Images\DialogCloseButton.gif" />
+    <EmbeddedResource Include="Resources\Images\DialogCloseButtonMouseDown.gif" />
+    <EmbeddedResource Include="Resources\Images\DialogCloseButtonMouseOver.gif" />
+    <EmbeddedResource Include="Resources\Images\DialogResize.gif" />
+    <EmbeddedResource Include="Resources\Images\DialogTitlebar.gif" />
+    <EmbeddedResource Include="Resources\Images\download.png" />
+    <EmbeddedResource Include="Resources\Images\edit.png" />
+    <EmbeddedResource Include="Resources\Images\Error.gif" />
+    <EmbeddedResource Include="Resources\Images\Error32.png" />
+    <EmbeddedResource Include="Resources\Images\Expand.gif" />
+    <EmbeddedResource Include="Resources\Images\find.png" />
+    <EmbeddedResource Include="Resources\Images\first.png" />
+    <EmbeddedResource Include="Resources\Images\FolderClosed.png" />
+    <EmbeddedResource Include="Resources\Images\FolderOpen.png" />
+    <EmbeddedResource Include="Resources\Images\folder_find.png" />
+    <EmbeddedResource Include="Resources\Images\Help.png" />
+    <EmbeddedResource Include="Resources\Images\image_add.png" />
+    <EmbeddedResource Include="Resources\Images\image_delete.png" />
+    <EmbeddedResource Include="Resources\Images\Info.gif" />
+    <EmbeddedResource Include="Resources\Images\Info32.png" />
+    <EmbeddedResource Include="Resources\Images\insert.png" />
+    <EmbeddedResource Include="Resources\Images\last.png" />
+    <EmbeddedResource Include="Resources\Images\LeftArrow.gif" />
+    <EmbeddedResource Include="Resources\Images\lookup.png" />
+    <EmbeddedResource Include="Resources\Images\NewFolder.png" />
+    <EmbeddedResource Include="Resources\Images\nofile.gif" />
+    <EmbeddedResource Include="Resources\Images\ok.gif" />
+    <EmbeddedResource Include="Resources\Images\parentfolder.png" />
+    <EmbeddedResource Include="Resources\Images\prev.png" />
+    <EmbeddedResource Include="Resources\Images\printer.png" />
+    <EmbeddedResource Include="Resources\Images\Question.gif" />
+    <EmbeddedResource Include="Resources\Images\Question32.png" />
+    <EmbeddedResource Include="Resources\Images\refresh.png" />
+    <EmbeddedResource Include="Resources\Images\RightArrow.gif" />
+    <EmbeddedResource Include="Resources\Images\save.png" />
+    <EmbeddedResource Include="Resources\Images\undo.png" />
+    <EmbeddedResource Include="Resources\Images\update.png" />
+    <EmbeddedResource Include="Resources\Images\upload.png" />
+    <EmbeddedResource Include="Resources\Images\wait.gif" />
+    <EmbeddedResource Include="Resources\Images\Warning.gif" />
+    <EmbeddedResource Include="Resources\Images\Warning32.png" />
+    <EmbeddedResource Include="Resources\Images\window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Localisation\default.da-DK.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.es-ES.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.es-MX.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.fi-FI.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.fr-FR.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.hu-HU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Localisation\default.it-IT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Localisation\default.nb-NO.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.nl-NL.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.nn-NO.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Localisation\default.pl-PL.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.pt-BR.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.pt-PT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Localisation\default.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Localisation\default.ru-RU.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.sv-SE.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.uk-UA.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Localisation\default.zh-SG.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.zh-TW.resx" />
+    <EmbeddedResource Include="Resources\Scripts\DbNetGrid.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\GridEditControl.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\DbNetGrid.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\MessageBox.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\to-title-case.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\SearchDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\LookupDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\SimpleSearchDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\ErrorDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\Dialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\EditDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetEdit.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery.tooltip.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\DbNetEdit.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Html\UploadPage.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\UploadDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\SuggestLookup.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\SuggestLookup.css" />
+    <EmbeddedResource Include="Resources\Localisation\default.de-DE.resx" />
+    <EmbeddedResource Include="Resources\Localisation\default.fr-CA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Localisation\default.it-CH.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery.maxlength.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\TextEditor.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\HtmlEditor.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetFile.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\DbNetFile.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\chm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\config.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\css.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\csv.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\default.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\doc.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\folder.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\gif.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\htm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\jpeg.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\jpg.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\mdb.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\pdf.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\png.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\ppt.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\rtf.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\tif.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\txt.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\unknown.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\wav.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xls.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xml.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\zip.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\FileSearchDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\FileSearchResultsDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\FilePreviewDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Tree\tree-last-node-close.gif" />
+    <EmbeddedResource Include="Resources\Images\Tree\tree-last-node-open.gif" />
+    <EmbeddedResource Include="Resources\Images\Tree\tree-last-node.gif" />
+    <EmbeddedResource Include="Resources\Images\Tree\tree-node-close.gif" />
+    <EmbeddedResource Include="Resources\Images\Tree\tree-node-open.gif" />
+    <EmbeddedResource Include="Resources\Images\Tree\tree-node.gif" />
+    <EmbeddedResource Include="Resources\Images\Tree\tree-vertical-line.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetGrid.Compat.Code.js" />
+    <EmbeddedResource Include="Resources\Scripts\DbNetGrid.Compat.Properties.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\NewFolderDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery.fixedheader.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetSpell.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\spellcheck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\PdfSettingsDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Localisation\default.tr-TR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Scripts\DbNetSpellDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\nicEdit.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\nicEditorIcons.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetCombo.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\DbNetCombo.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetList.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\DbNetList.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DbNetSuite.UI\DbNetCombo.bmp" />
+    <EmbeddedResource Include="DbNetSuite.UI\DbNetEdit.bmp" />
+    <EmbeddedResource Include="DbNetSuite.UI\DbNetFile.bmp" />
+    <EmbeddedResource Include="DbNetSuite.UI\DbNetGrid.bmp" />
+    <EmbeddedResource Include="DbNetSuite.UI\DbNetList.bmp" />
+    <EmbeddedResource Include="DbNetSuite.UI\DbNetSpell.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\AdvancedSearchDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\new_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Html\Empty.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\UserProfileDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\UserProfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Xml\mime-types.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetEdit.Compat.Code.js" />
+    <EmbeddedResource Include="Resources\Scripts\DbNetEdit.Compat.Properties.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Browse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\BrowseDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\HTA\mailmerge.hta" />
+    <EmbeddedResource Include="Resources\Images\MailMerge.png" />
+    <EmbeddedResource Include="Resources\Scripts\office.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\ColumnPickerDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Down.png" />
+    <EmbeddedResource Include="Resources\Images\Left.png" />
+    <EmbeddedResource Include="Resources\Images\Right.png" />
+    <EmbeddedResource Include="Resources\Images\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\ColumnPicker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\GreenDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\ColumnSortDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Sort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery.bgiframe.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\ConfigDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\ChartConfigDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\ChartDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Serialize.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Localisation\default.ar-QA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_flat_75_ffffff_40x100.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_glass_65_ffffff_1x400.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_glass_75_dadada_1x400.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_glass_95_fef1ec_1x400.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_222222_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_2e83ff_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_454545_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_888888_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_cd0a0a_256x240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\Themes\light.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\light\Asc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\light\Desc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\Themes\dark.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetLink.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\jquery.placeholder.css" />
+    <EmbeddedResource Include="Resources\Scripts\jquery.placeholder.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\SearchPanel.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\console.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\required.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\ui-icons_222222_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\ui-icons_454545_256x240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\AuditDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\ViewDialog.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DbNetView.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\ViewDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\view.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\docx.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xlsx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\docm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\dotm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\dotx.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\potm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\potx.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\ppam.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\ppsm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\ppsx.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\pptm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\pptx.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xlam.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xlsb.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xlsm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xltm.gif" />
+    <EmbeddedResource Include="Resources\Images\Ext\xltx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\vsd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\vtx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\vdx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\vss.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\vst.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\Ext\vsx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_flat_10_000000_40x100.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_228ef1_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_ef8c08_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_ffd27a_256x240.png" />
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-icons_ffffff_256x240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\jQueryUI\ui-bg_flat_75_dcdcdc_40x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\csg-4f4f550b4d3f0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\DataUploadDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery-ui-timepicker-addon.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\ajax-loader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery-1.8.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\jquery-ui-1.9.2.custom.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery-ui-1.9.2.custom.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\Themes\bootstrap.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\Themes\bootstrap.mod.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\bootstrap\collapse.png" />
+    <EmbeddedResource Include="Resources\Images\bootstrap\expand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery.browser.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\jquery-ui-1.11.2.custom.css" />
+    <EmbeddedResource Include="Resources\Scripts\jquery-ui-1.11.2.custom.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\AjaxUploadDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\CssToInlineStyle.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\clipboard.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery.hotkeys.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery-3.6.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Scripts\jquery-ui-1.13.2.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\Themes\jquery-ui-1.13.2.theme.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CSS\jquery-ui-1.13.2.structure.min.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,147 @@
+﻿.dbnetgrid td,
+.dbnetgrid th,
+.dbnetgrid input,
+.dbnetgrid select, 
+.dbnetgrid caption,
+.tool-button-text
+{
+	font-family: verdana;
+	font-size: small;
+}
+
+.dbnetgrid .toolbar
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+table.dbnetgrid
+{
+	border-collapse: collapse;
+	border: 1pt solid silver;
+}
+
+.dbnetgrid .header-row
+{
+}
+.dbnetgrid .header-cell
+{
+	background-color: gainsboro;
+	border:1pt solid silver;
+	font-weight: bold;
+	text-align: left;
+	cursor:pointer;
+}
+
+.dbnetgrid .group-header-cell
+{
+	background-color: #FFCC66;
+	color:#336699;
+	font-weight:bold;
+}
+
+.dbnetgrid .header-cell-table.ui-draggable-dragging
+{
+	background-color: gainsboro;
+	border:1pt solid silver;
+	font-weight: bold;
+	text-align: left;
+	cursor:pointer;
+}
+
+.dbnetgrid .even
+{
+	background-color: #F5F5F5;
+}
+.dbnetgrid .odd
+{
+	background-color: #FFFFFF;
+}
+.dbnetgrid .highlight
+{
+	background-color: khaki;
+}
+.dbnetgrid .selected
+{
+	background-color: #336699;
+	color: white;
+}
+.dbnetgrid .selected a
+{
+	color: white;
+}
+.dbnetgrid .data-cell
+{
+	border:1pt solid silver;
+}
+.dbnetgrid .filter-cell
+{
+	padding-right:6px;
+}
+.filter-column-select
+{
+	display: block; 
+	width: 100%; 
+}
+.dbnetgrid .data-cell a
+{
+	text-decoration:underline;
+}
+.dbnetgrid .aggregate-row
+{
+}
+.dbnetgrid .aggregate-cell
+{
+	font-weight: bold;
+	background-color: #ECF2F4;
+	border:1pt solid silver;
+}
+
+.dbnetgrid .nested-grid-cell
+{
+	padding:10px;
+}
+
+.dbnetgrid .aggregate-filler-cell
+{
+	background-color: #ECF2F4;
+	border:1pt solid silver;
+}
+
+.dbnetgrid .aggregate-label
+{
+	font-weight:bold;
+}
+.dbnetgrid .aggregate-label-value
+{
+	padding-left:5px;
+}
+
+.dbnetgrid .dbnetedit-toolbar
+{
+	border-top: 1pt solid silver;
+}
+
+.config-toolbar
+{
+	border-top: 1pt solid silver;
+}
+
+.asc-sort-sequence-image {
+	width:20px;
+	background: url(Asc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.desc-sort-sequence-image {
+	width:20px;
+	background: url(Desc.gif) no-repeat center; 
+	padding:0px 5px;
+}
+
+.dbnetgrid-message-box
+{
+	border: 1px solid silver;
+	background-color:#F6F5F1;
+	padding:2px;
+	white-space:normal;
+}

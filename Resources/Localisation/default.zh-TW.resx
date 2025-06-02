@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Advanced" xml:space="preserve">
+    <value>進階</value>
+    <comment>Advanced HTML Editor</comment>
+  </data>
+	<data name="After" xml:space="preserve">
+    <value>之後</value>
+  </data>
+	<data name="And" xml:space="preserve">
+    <value>且</value>
+  </data>
+	<data name="Apply" xml:space="preserve">
+    <value>套用</value>
+  </data>
+	<data name="AValueIsRequiredFor" xml:space="preserve">
+    <value>需要填入資料值</value>
+  </data>
+	<data name="Before" xml:space="preserve">
+    <value>之後</value>
+  </data>
+	<data name="Between" xml:space="preserve">
+    <value>介於</value>
+  </data>
+	<data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+	<data name="Close" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+	<data name="Contains" xml:space="preserve">
+    <value>包含</value>
+  </data>
+	<data name="CopyToClipboard" xml:space="preserve">
+    <value>複製到剪貼簿</value>
+  </data>
+	<data name="DataMismatch" xml:space="preserve">
+    <value>所輸入的資料值型態 &lt;b&gt;{0}&lt;/b&gt; 不符合其資料型態 </value>
+  </data>
+	<data name="DeleteDisabled" xml:space="preserve">
+    <value>不被允許刪除資料</value>
+  </data>
+	<data name="DoesNotContain" xml:space="preserve">
+    <value>不包含</value>
+  </data>
+	<data name="DoesNotEndWith" xml:space="preserve">
+    <value>不以結尾</value>
+  </data>
+	<data name="DoesNotStartWith" xml:space="preserve">
+    <value>不以開始</value>
+  </data>
+	<data name="Download" xml:space="preserve">
+    <value>下載</value>
+  </data>
+	<data name="EndsWith" xml:space="preserve">
+    <value>結尾以</value>
+  </data>
+	<data name="EqualTo" xml:space="preserve">
+    <value>等於</value>
+  </data>
+	<data name="OutputCurrentPageOnly" xml:space="preserve">
+    <value>只輸出目前的頁面內容</value>
+  </data>
+	<data name="FailedCustomValidation" xml:space="preserve">
+    <value>客製化驗證失敗</value>
+  </data>
+	<data name="False" xml:space="preserve">
+    <value>假</value>
+  </data>
+	<data name="FileExceedsMaxSize" xml:space="preserve">
+    <value>檔案已超過允許最大的容量.  請上傳小於 {0}Kb 容量的檔案</value>
+  </data>
+	<data name="FileUpload" xml:space="preserve">
+    <value>上傳檔案</value>
+  </data>
+	<data name="FirstPage" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+	<data name="GreaterThan" xml:space="preserve">
+    <value>大於</value>
+  </data>
+	<data name="HTMLEditor" xml:space="preserve">
+    <value>HTML 編輯器</value>
+  </data>
+	<data name="In" xml:space="preserve">
+    <value>在</value>
+  </data>
+	<data name="InsertDisabled" xml:space="preserve">
+    <value>不被允許新增資料</value>
+  </data>
+	<data name="IsNotNull" xml:space="preserve">
+    <value>不是 null</value>
+  </data>
+	<data name="IsNull" xml:space="preserve">
+    <value>是 null</value>
+  </data>
+	<data name="LastPage" xml:space="preserve">
+    <value>終頁</value>
+  </data>
+	<data name="LessThan" xml:space="preserve">
+    <value>小於</value>
+  </data>
+	<data name="MatchAllCriteria" xml:space="preserve">
+    <value>符合所有條件</value>
+  </data>
+	<data name="MatchAtLeastOneCriteria" xml:space="preserve">
+    <value>最少符合一項條件</value>
+  </data>
+	<data name="NextPage" xml:space="preserve">
+    <value>下頁</value>
+  </data>
+	<data name="No" xml:space="preserve">
+    <value>不</value>
+  </data>
+	<data name="NotBetween" xml:space="preserve">
+    <value>不介於</value>
+  </data>
+	<data name="NotEqualTo" xml:space="preserve">
+    <value>不等於</value>
+  </data>
+	<data name="NotGreaterThan" xml:space="preserve">
+    <value>不大於</value>
+  </data>
+	<data name="NotIn" xml:space="preserve">
+    <value>不在</value>
+  </data>
+	<data name="NotLessThan" xml:space="preserve">
+    <value>不小於</value>
+  </data>
+	<data name="Ok" xml:space="preserve">
+    <value>好</value>
+  </data>
+	<data name="OpenInNewWindow" xml:space="preserve">
+    <value>在新視窗開啟</value>
+  </data>
+	<data name="PreviousPage" xml:space="preserve">
+    <value>前一頁</value>
+  </data>
+	<data name="Print" xml:space="preserve">
+    <value>列印</value>
+  </data>
+	<data name="RecordDeleted" xml:space="preserve">
+    <value>資料已被刪除</value>
+  </data>
+	<data name="RecordInserted" xml:space="preserve">
+    <value>資料已被新增</value>
+  </data>
+	<data name="RecordsDeleted" xml:space="preserve">
+    <value>資料集已被刪除</value>
+  </data>
+	<data name="RecordUpdated" xml:space="preserve">
+    <value>資料以備更新</value>
+  </data>
+	<data name="RenameFile" xml:space="preserve">
+    <value>更名檔案:</value>
+  </data>
+	<data name="Search" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+	<data name="SelectValue" xml:space="preserve">
+    <value>選值</value>
+  </data>
+	<data name="Simple" xml:space="preserve">
+    <value>簡單</value>
+  </data>
+	<data name="StartsWith" xml:space="preserve">
+    <value>以開始</value>
+  </data>
+	<data name="TextEditor" xml:space="preserve">
+    <value>純文字編輯器</value>
+  </data>
+	<data name="True" xml:space="preserve">
+    <value>真</value>
+  </data>
+	<data name="UpdatesDisabled" xml:space="preserve">
+    <value>不允許更新資料</value>
+  </data>
+	<data name="Upload" xml:space="preserve">
+    <value>上傳</value>
+  </data>
+	<data name="UploadComplete" xml:space="preserve">
+    <value>上傳完成</value>
+  </data>
+	<data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+	<data name="Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+	<data name="Of" xml:space="preserve">
+    <value>的</value>
+  </data>
+	<data name="Rows" xml:space="preserve">
+    <value>筆數</value>
+  </data>
+	<data name="Bytes" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+	<data name="CreateFolder" xml:space="preserve">
+    <value>建立新資料夾</value>
+  </data>
+	<data name="DateNotValid" xml:space="preserve">
+    <value>錯誤的日期資料格式</value>
+  </data>
+	<data name="DeleteFile" xml:space="preserve">
+    <value>刪除所選定資料</value>
+  </data>
+	<data name="FileAttributes" xml:space="preserve">
+    <value>檔案屬性</value>
+  </data>
+	<data name="FileContent" xml:space="preserve">
+    <value>檔案內容</value>
+  </data>
+	<data name="FilePreview" xml:space="preserve">
+    <value>預覽檔案</value>
+  </data>
+	<data name="FileSearch" xml:space="preserve">
+    <value>搜尋檔案</value>
+  </data>
+	<data name="FileSearchResults" xml:space="preserve">
+    <value>檔案搜尋結果</value>
+  </data>
+	<data name="FolderName" xml:space="preserve">
+    <value>資料夾名稱</value>
+  </data>
+	<data name="Includesub-folders" xml:space="preserve">
+    <value>包含子資料夾</value>
+  </data>
+	<data name="IntegerNotValid" xml:space="preserve">
+    <value>錯誤的數值資料</value>
+  </data>
+	<data name="InvalidRange" xml:space="preserve">
+    <value>錯誤的範圍</value>
+  </data>
+	<data name="KB" xml:space="preserve">
+    <value>KBytes</value>
+  </data>
+	<data name="MB" xml:space="preserve">
+    <value>MBytes</value>
+  </data>
+	<data name="NewFolder" xml:space="preserve">
+    <value>新資料夾</value>
+  </data>
+	<data name="Options" xml:space="preserve">
+    <value>選項</value>
+  </data>
+	<data name="Path" xml:space="preserve">
+    <value>路徑</value>
+  </data>
+	<data name="Searchfilesonly" xml:space="preserve">
+    <value>只搜尋檔案</value>
+  </data>
+	<data name="UploadAFile" xml:space="preserve">
+    <value>上傳至目前目錄</value>
+  </data>
+	<data name="AddANewRecord" xml:space="preserve">
+    <value>新增一筆資料</value>
+  </data>
+	<data name="ApplyChangesToTheCurrentRecord" xml:space="preserve">
+    <value>套用修改到目前資料</value>
+  </data>
+	<data name="ApplyTheEnteredSearchCriteria" xml:space="preserve">
+    <value>套用輸入的搜尋條件</value>
+  </data>
+	<data name="ClearTheSearchCriteria" xml:space="preserve">
+    <value>清除搜尋條件</value>
+  </data>
+	<data name="CloseTheSearchWindow" xml:space="preserve">
+    <value>關閉搜尋視窗</value>
+  </data>
+	<data name="CopyGridToClipboard" xml:space="preserve">
+    <value>複製網格到剪貼簿</value>
+  </data>
+	<data name="DeleteTheCurrentRecord" xml:space="preserve">
+    <value>刪除目前資料</value>
+  </data>
+	<data name="DeleteTheSelectedRecord" xml:space="preserve">
+    <value>刪除所選定資料</value>
+  </data>
+	<data name="DisplayTheSearchWindow" xml:space="preserve">
+    <value>顯示搜尋視窗</value>
+  </data>
+	<data name="NextMonth" xml:space="preserve">
+    <value>下個月</value>
+  </data>
+	<data name="OpenTheLookupWindow" xml:space="preserve">
+    <value>開啟下拉式選單</value>
+  </data>
+	<data name="PreviousMonth" xml:space="preserve">
+    <value>前個月</value>
+  </data>
+	<data name="PrintGrid" xml:space="preserve">
+    <value>列印網格</value>
+  </data>
+	<data name="SaveTheGridInTheSelectedFormat" xml:space="preserve">
+    <value>依選定格式儲存網格</value>
+  </data>
+	<data name="SelectDate" xml:space="preserve">
+    <value>選擇日期</value>
+  </data>
+	<data name="SwitchToAdvancedEditing" xml:space="preserve">
+    <value>切換至進階編輯介面</value>
+  </data>
+	<data name="SwitchToSimpleEditing" xml:space="preserve">
+    <value>切換至進階簡易介面</value>
+  </data>
+	<data name="UpdateTheSelectedRecord" xml:space="preserve">
+    <value>更新選定的資料</value>
+  </data>
+	<data name="LinkedRecords" xml:space="preserve">
+    <value>無法刪除選定資料, 因為存在關聯資料</value>
+  </data>
+	<data name="FirstRow" xml:space="preserve">
+    <value>首筆</value>
+  </data>
+	<data name="LastRow" xml:space="preserve">
+    <value>終筆</value>
+  </data>
+	<data name="NextRow" xml:space="preserve">
+    <value>下筆</value>
+  </data>
+	<data name="PreviousRow" xml:space="preserve">
+    <value>前筆</value>
+  </data>
+	<data name="ARowMustBeSelected" xml:space="preserve">
+    <value>請少選定一筆資料</value>
+  </data>
+	<data name="ConfirmDelete" xml:space="preserve">
+    <value>確定要刪除資料?</value>
+  </data>
+	<data name="GridCopied" xml:space="preserve">
+    <value>網格已經複製到剪貼簿</value>
+  </data>
+	<data name="Page" xml:space="preserve">
+    <value>頁</value>
+  </data>
+	<data name="Record" xml:space="preserve">
+    <value>筆</value>
+  </data>
+	<data name="UnappliedChanges" xml:space="preserve">
+    <value>放棄所有更正的欄位值?</value>
+  </data>
+	<data name="ExampleFormat" xml:space="preserve">
+    <value>輸入值必須符合下列格式</value>
+  </data>
+	<data name="DeleteDocument" xml:space="preserve">
+    <value>刪除文件</value>
+  </data>
+	<data name="DeleteFileConfirm" xml:space="preserve">
+    <value>請確認要刪除所選定的檔案</value>
+  </data>
+	<data name="DeleteFolderConfirm" xml:space="preserve">
+    <value>請確認要刪除所選定的資料夾與其包含的內容</value>
+  </data>
+	<data name="EditDialogTitle" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+	<data name="FileAccessDenied" xml:space="preserve">
+    <value>存取檔案遭到拒絕</value>
+  </data>
+	<data name="FileDeletionDenied" xml:space="preserve">
+    <value>刪除檔案遭到拒絕</value>
+  </data>
+	<data name="NoFileSelected" xml:space="preserve">
+    <value>沒有檔案與資料夾被選擇</value>
+  </data>
+	<data name="OpenEditorWindow" xml:space="preserve">
+    <value>開啟編輯視窗</value>
+  </data>
+	<data name="UploadDocument" xml:space="preserve">
+    <value>上傳文件</value>
+  </data>
+	<data name="ValueRequired" xml:space="preserve">
+    <value>此欄位必須要輸入值</value>
+  </data>
+	<data name="File" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+	<data name="DocumentCopied" xml:space="preserve">
+    <value>文件已複製到剪貼簿</value>
+  </data>
+	<data name="DocumentNotCopied" xml:space="preserve">
+    <value>此檔案型態不支援複製功能</value>
+  </data>
+	<data name="DuplicateFileName" xml:space="preserve">
+    <value>檔案名稱重複. 請選擇其他檔案名稱</value>
+  </data>
+	<data name="ErrorOccured" xml:space="preserve">
+    <value>發生錯誤</value>
+  </data>
+	<data name="ExtensionChangeWarning" xml:space="preserve">
+    <value>無法更改檔案的附檔名. 請確定新副檔名與舊的相同.</value>
+  </data>
+	<data name="FileUploaded" xml:space="preserve">
+    <value>檔案上傳成功</value>
+  </data>
+	<data name="InvalidFileType" xml:space="preserve">
+    <value>欲上傳的檔案型態不允許上傳</value>
+  </data>
+	<data name="Lookup" xml:space="preserve">
+    <value>下拉式</value>
+  </data>
+	<data name="NoRecordsFound" xml:space="preserve">
+    <value>沒有找到資料</value>
+  </data>
+	<data name="OverwritePrompt" xml:space="preserve">
+    <value>檔案名稱已重複. 要覆蓋既有檔案?</value>
+  </data>
+	<data name="Select" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+	<data name="SelectAFile" xml:space="preserve">
+    <value>請選擇要上傳的檔案</value>
+  </data>
+	<data name="ShowCalendar" xml:space="preserve">
+    <value>顯示日曆</value>
+  </data>
+	<data name="SimpleSearch" xml:space="preserve">
+    <value>簡易搜尋</value>
+  </data>
+	<data name="StandardSearch" xml:space="preserve">
+    <value>標準搜尋</value>
+  </data>
+	<data name="FolderNotEmpty" xml:space="preserve">
+    <value>Folder is not empty</value>
+  </data>
+	<data name="FileExists" xml:space="preserve">
+    <value>A file with this name already exists.</value>
+  </data>
+	<data name="FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+	<data name="FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+	<data name="CheckSpelling" xml:space="preserve">
+    <value>Check spelling</value>
+  </data>
+	<data name="SpellCheck" xml:space="preserve">
+    <value>Spelling Checker</value>
+  </data>
+	<data name="AddNewSearch" xml:space="preserve">
+    <value>Add a new set of search criteria</value>
+  </data>
+	<data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+	<data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+	<data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+	<data name="ColumnPicker" xml:space="preserve">
+    <value>Column Selection</value>
+  </data>
+	<data name="MergeData" xml:space="preserve">
+    <value>Merge selected records with a Word merge document</value>
+  </data>
+	<data name="OpenBrowseDialog" xml:space="preserve">
+    <value>Open browse dialog</value>
+  </data>
+	<data name="OpenColumnSelectionDialog" xml:space="preserve">
+    <value>Open the column selection dialog</value>
+  </data>
+	<data name="ColumnSort" xml:space="preserve">
+    <value>Column Sort Selection Dialog</value>
+  </data>
+	<data name="OpenColumnSortDialog" xml:space="preserve">
+    <value>Open the column sort dialog</value>
+  </data>
+	<data name="SaveProfile" xml:space="preserve">
+    <value>Save Profile</value>
+  </data>
+	<data name="SelectProfile" xml:space="preserve">
+    <value>Select Profile</value>
+  </data>
+	<data name="UserProfiles" xml:space="preserve">
+    <value>User Profiles</value>
+  </data>
+	<data name="OpenUserProfileDialog" xml:space="preserve">
+    <value>Open User Profile dialog</value>
+  </data>
+	<data name="Author" xml:space="preserve">
+    <value>davidlo@elive.com.tw</value>
+    <comment></comment>
+  </data>
+</root>

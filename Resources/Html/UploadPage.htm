@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        body {
+            border-width: 0px;
+            margin: 0px;
+            padding: 0px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        * {
+            font-family: Verdana;
+            font-size: small;
+        }
+    </style>
+    <title>Upload Page</title>
+    <script type="text/javascript">
+        var loaded = false;
+        window.onload = function () { window.top[window.name + "_loaded"] = true; }
+        /* Vars */
+    </script>
+</head>
+<body>
+    <div id="layout" style="text-align: left">
+        <form action="" id="theForm" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td id="fileLabel" style="white-space: nowrap">File</td>
+                    <td>
+                        <input id="fileInput" type="file" name="fileInput" size="50" />
+                        <input id="data" type="hidden" name="data" />
+                    </td>
+                </tr>
+                <tr id="optionsRow">
+                    <td colspan="2">
+                        <fieldset>
+                            <legend>Options</legend>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td id="overwriteLabel" style="white-space: nowrap" class="overwrite">Overwrite</td>
+                                    <td class="overwrite">
+                                        <input id="fileOverwrite" type="checkbox" name="fileOverwrite" />
+                                    </td>
+                                    <td class="overwrite">&nbsp;</td>
+                                    <td id="renameLabel" class="rename" style="white-space: nowrap">Alternate File Name</td>
+                                    <td class="rename">
+                                        <input id="alternateFileName" type="text" name="alternateFileName" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

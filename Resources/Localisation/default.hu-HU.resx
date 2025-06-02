@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Advanced" xml:space="preserve">
+    <value>Részletes</value>
+    <comment>Advanced HTML Editor</comment>
+  </data>
+	<data name="After" xml:space="preserve">
+    <value>After</value>
+  </data>
+	<data name="And" xml:space="preserve">
+    <value>és</value>
+  </data>
+	<data name="Apply" xml:space="preserve">
+    <value>Alkalmaz</value>
+  </data>
+	<data name="AValueIsRequiredFor" xml:space="preserve">
+    <value>Egy értékre van szükség</value>
+  </data>
+	<data name="Before" xml:space="preserve">
+    <value>Elötte</value>
+  </data>
+	<data name="Between" xml:space="preserve">
+    <value>Közben</value>
+  </data>
+	<data name="Cancel" xml:space="preserve">
+    <value>Mégsem</value>
+  </data>
+	<data name="Close" xml:space="preserve">
+    <value>Bezár</value>
+  </data>
+	<data name="Contains" xml:space="preserve">
+    <value>Tartalmaz</value>
+  </data>
+	<data name="CopyToClipboard" xml:space="preserve">
+    <value>Vágólapra másol</value>
+  </data>
+	<data name="DataMismatch" xml:space="preserve">
+    <value>A &lt;b&gt;{0}&lt;/b&gt; mezőkbe írt értékek nem érvényes adattípusok</value>
+  </data>
+	<data name="DeleteDisabled" xml:space="preserve">
+    <value>Rekordok törlése nem engedélyezett a vezérlésben</value>
+  </data>
+	<data name="DoesNotContain" xml:space="preserve">
+    <value>Nem tartalmaz</value>
+  </data>
+	<data name="DoesNotEndWith" xml:space="preserve">
+    <value>Nem azzal végződik</value>
+  </data>
+	<data name="DoesNotStartWith" xml:space="preserve">
+    <value>Nem azzal kezdődik</value>
+  </data>
+	<data name="Download" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+	<data name="EndsWith" xml:space="preserve">
+    <value>Végződik</value>
+  </data>
+	<data name="EqualTo" xml:space="preserve">
+    <value>Egyenlő</value>
+  </data>
+	<data name="OutputCurrentPageOnly" xml:space="preserve">
+    <value>Csak a kiválasztott oldal elküldése</value>
+  </data>
+	<data name="FailedCustomValidation" xml:space="preserve">
+    <value>Az egyedi érvényesítés sikertelen</value>
+  </data>
+	<data name="False" xml:space="preserve">
+    <value>Hamis</value>
+  </data>
+	<data name="FileExceedsMaxSize" xml:space="preserve">
+    <value>Az állomány nagyobb a maximálisan megengedettnél.  Kérem töltsön fel kisebb méretű állományt, mint {0}Kb</value>
+  </data>
+	<data name="FileUpload" xml:space="preserve">
+    <value>Állomány feltöltése</value>
+  </data>
+	<data name="FirstPage" xml:space="preserve">
+    <value>Első lap</value>
+  </data>
+	<data name="GreaterThan" xml:space="preserve">
+    <value>Nagyobb mint</value>
+  </data>
+	<data name="HTMLEditor" xml:space="preserve">
+    <value>HTML Szerkesztő</value>
+  </data>
+	<data name="In" xml:space="preserve">
+    <value>Benne</value>
+  </data>
+	<data name="InsertDisabled" xml:space="preserve">
+    <value>Rekordok beillesztése nem lehetséges</value>
+  </data>
+	<data name="IsNotNull" xml:space="preserve">
+    <value>Nem nulla</value>
+  </data>
+	<data name="IsNull" xml:space="preserve">
+    <value>Nulla</value>
+  </data>
+	<data name="LastPage" xml:space="preserve">
+    <value>Utolsó oldal</value>
+  </data>
+	<data name="LessThan" xml:space="preserve">
+    <value>Kevesebb mint</value>
+  </data>
+	<data name="MatchAllCriteria" xml:space="preserve">
+    <value>Minden kritériumnak megfelel</value>
+  </data>
+	<data name="MatchAtLeastOneCriteria" xml:space="preserve">
+    <value>Legalább egy feltételnek feleljen meg</value>
+  </data>
+	<data name="NextPage" xml:space="preserve">
+    <value>Következő oldal</value>
+  </data>
+	<data name="No" xml:space="preserve">
+    <value>Nem</value>
+  </data>
+	<data name="NotBetween" xml:space="preserve">
+    <value>Nincs közbevetés</value>
+  </data>
+	<data name="NotEqualTo" xml:space="preserve">
+    <value>Nem egyenlő</value>
+  </data>
+	<data name="NotGreaterThan" xml:space="preserve">
+    <value>Nem nagyobb mint</value>
+  </data>
+	<data name="NotIn" xml:space="preserve">
+    <value>Nincs benne</value>
+  </data>
+	<data name="NotLessThan" xml:space="preserve">
+    <value>Nem kevesebb mint</value>
+  </data>
+	<data name="Ok" xml:space="preserve">
+    <value>Rendben</value>
+  </data>
+	<data name="OpenInNewWindow" xml:space="preserve">
+    <value>Megnyitás új ablakban</value>
+  </data>
+	<data name="PreviousPage" xml:space="preserve">
+    <value>Előző oldal</value>
+  </data>
+	<data name="Print" xml:space="preserve">
+    <value>Nyomtatás</value>
+  </data>
+	<data name="RecordDeleted" xml:space="preserve">
+    <value>Rekord törölve</value>
+  </data>
+	<data name="RecordInserted" xml:space="preserve">
+    <value>Rekord behelyezve</value>
+  </data>
+	<data name="RecordsDeleted" xml:space="preserve">
+    <value>Rekord törölve</value>
+  </data>
+	<data name="RecordUpdated" xml:space="preserve">
+    <value>Rekord frissítve</value>
+  </data>
+	<data name="RenameFile" xml:space="preserve">
+    <value>Állomány átnevezése</value>
+  </data>
+	<data name="Search" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+	<data name="SelectValue" xml:space="preserve">
+    <value>Érték kiválasztása</value>
+  </data>
+	<data name="Simple" xml:space="preserve">
+    <value>Egyszerű</value>
+  </data>
+	<data name="StartsWith" xml:space="preserve">
+    <value>Ezzel kezdődik</value>
+  </data>
+	<data name="TextEditor" xml:space="preserve">
+    <value>Szövegszerkesztő</value>
+  </data>
+	<data name="True" xml:space="preserve">
+    <value>Igaz</value>
+  </data>
+	<data name="UpdatesDisabled" xml:space="preserve">
+    <value>Rekordok frissítése nem lehetséges</value>
+  </data>
+	<data name="Upload" xml:space="preserve">
+    <value>Feltöltés</value>
+  </data>
+	<data name="UploadComplete" xml:space="preserve">
+    <value>Feltöltés kész</value>
+  </data>
+	<data name="Yes" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+	<data name="Clear" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+	<data name="Of" xml:space="preserve">
+    <value>Azé</value>
+  </data>
+	<data name="Rows" xml:space="preserve">
+    <value>Sorok</value>
+  </data>
+	<data name="Bytes" xml:space="preserve">
+    <value>Bájtok</value>
+  </data>
+	<data name="CreateFolder" xml:space="preserve">
+    <value>Új könyvtár létrehozása</value>
+  </data>
+	<data name="DateNotValid" xml:space="preserve">
+    <value>A dátum érték nem érvényes</value>
+  </data>
+	<data name="DeleteFile" xml:space="preserve">
+    <value>Kiválasztott állomány mentése</value>
+  </data>
+	<data name="FileAttributes" xml:space="preserve">
+    <value>Állomány attribútuma</value>
+  </data>
+	<data name="FileContent" xml:space="preserve">
+    <value>Állomány tartalma</value>
+  </data>
+	<data name="FilePreview" xml:space="preserve">
+    <value>Állomány előnézete</value>
+  </data>
+	<data name="FileSearch" xml:space="preserve">
+    <value>Állomány keresése</value>
+  </data>
+	<data name="FileSearchResults" xml:space="preserve">
+    <value>Állomány keresés eredménye</value>
+  </data>
+	<data name="FolderName" xml:space="preserve">
+    <value>Könyvtár neve</value>
+  </data>
+	<data name="Includesub-folders" xml:space="preserve">
+    <value>Alkönyvtárakban is</value>
+  </data>
+	<data name="IntegerNotValid" xml:space="preserve">
+    <value>A változó értéke érvénytelen</value>
+  </data>
+	<data name="InvalidRange" xml:space="preserve">
+    <value>Érvénytelen sorozat</value>
+  </data>
+	<data name="KB" xml:space="preserve">
+    <value>Kilobájtok</value>
+  </data>
+	<data name="MB" xml:space="preserve">
+    <value>Megabájtok</value>
+  </data>
+	<data name="NewFolder" xml:space="preserve">
+    <value>Új könyvtár</value>
+  </data>
+	<data name="Options" xml:space="preserve">
+    <value>Opciók</value>
+  </data>
+	<data name="Path" xml:space="preserve">
+    <value>Útvonal</value>
+  </data>
+	<data name="Searchfilesonly" xml:space="preserve">
+    <value>Keresés csak az állományokban</value>
+  </data>
+	<data name="UploadAFile" xml:space="preserve">
+    <value>Állomány feltöltése az aktuális könyvtárba</value>
+  </data>
+	<data name="AddANewRecord" xml:space="preserve">
+    <value>Új rekord hozzáadása</value>
+  </data>
+	<data name="ApplyChangesToTheCurrentRecord" xml:space="preserve">
+    <value>Változások alkalmazása az aktuális rekordra</value>
+  </data>
+	<data name="ApplyTheEnteredSearchCriteria" xml:space="preserve">
+    <value>A bevitt keresési paraméterek alkalmazása</value>
+  </data>
+	<data name="ClearTheSearchCriteria" xml:space="preserve">
+    <value>Keresési paraméterek törlése</value>
+  </data>
+	<data name="CloseTheSearchWindow" xml:space="preserve">
+    <value>Keresési ablak bezárása</value>
+  </data>
+	<data name="CopyGridToClipboard" xml:space="preserve">
+    <value>Táblázat másolása a vágólapra</value>
+  </data>
+	<data name="DeleteTheCurrentRecord" xml:space="preserve">
+    <value>Aktuális rekord törlése</value>
+  </data>
+	<data name="DeleteTheSelectedRecord" xml:space="preserve">
+    <value>Kiválasztott rekord törlése</value>
+  </data>
+	<data name="DisplayTheSearchWindow" xml:space="preserve">
+    <value>Keresési ablak megjelenítése</value>
+  </data>
+	<data name="NextMonth" xml:space="preserve">
+    <value>Következő hónap</value>
+  </data>
+	<data name="OpenTheLookupWindow" xml:space="preserve">
+    <value>Keresőablak megnyitása</value>
+  </data>
+	<data name="PreviousMonth" xml:space="preserve">
+    <value>Előző hónap</value>
+  </data>
+	<data name="PrintGrid" xml:space="preserve">
+    <value>Nyomtatási tábla</value>
+  </data>
+	<data name="SaveTheGridInTheSelectedFormat" xml:space="preserve">
+    <value>Tábla elmentése a kiválasztott formátumban</value>
+  </data>
+	<data name="SelectDate" xml:space="preserve">
+    <value>Dátum kiválasztása</value>
+  </data>
+	<data name="SwitchToAdvancedEditing" xml:space="preserve">
+    <value>Átváltás kiterjesztett szerkesztési módba</value>
+  </data>
+	<data name="SwitchToSimpleEditing" xml:space="preserve">
+    <value>Átváltás egyszerű szerkesztési módba</value>
+  </data>
+	<data name="UpdateTheSelectedRecord" xml:space="preserve">
+    <value>Kiválasztott rekord frissítése</value>
+  </data>
+	<data name="LinkedRecords" xml:space="preserve">
+    <value>A kiválasztott rekord nem törölhető, mert rendelkezik kapcsolódó rekorokkal</value>
+  </data>
+	<data name="FirstRow" xml:space="preserve">
+    <value>Első sor</value>
+  </data>
+	<data name="LastRow" xml:space="preserve">
+    <value>Utolsó sor</value>
+  </data>
+	<data name="NextRow" xml:space="preserve">
+    <value>Következő sor</value>
+  </data>
+	<data name="PreviousRow" xml:space="preserve">
+    <value>Előző sor</value>
+  </data>
+	<data name="ARowMustBeSelected" xml:space="preserve">
+    <value>Egy sort ki kell választani</value>
+  </data>
+	<data name="ConfirmDelete" xml:space="preserve">
+    <value>Biztos, hogy ki akarja törölni a kiválasztott rekordot/rekordokat?</value>
+  </data>
+	<data name="GridCopied" xml:space="preserve">
+    <value>A tábla másolásra került a vágólapra</value>
+  </data>
+	<data name="Page" xml:space="preserve">
+    <value>Oldal</value>
+  </data>
+	<data name="Record" xml:space="preserve">
+    <value>Rekord</value>
+  </data>
+	<data name="UnappliedChanges" xml:space="preserve">
+    <value>Nem alkalmazott változtatásai vannak. Elveti azokat?</value>
+  </data>
+	<data name="ExampleFormat" xml:space="preserve">
+    <value>A bevitt adatoknak a következő formátumban kellene lenniük</value>
+  </data>
+	<data name="DeleteDocument" xml:space="preserve">
+    <value>Dokumentum törlése</value>
+  </data>
+	<data name="DeleteFileConfirm" xml:space="preserve">
+    <value>Kérem erősítse meg a kiválasztott állomány törlési szándékát</value>
+  </data>
+	<data name="DeleteFolderConfirm" xml:space="preserve">
+    <value>Kérem erősítse meg, hogy törölni kívánja a kiválasztott könyvtárt és annak minden tartalmát</value>
+  </data>
+	<data name="EditDialogTitle" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+	<data name="FileAccessDenied" xml:space="preserve">
+    <value>Az állomnyhoz való hozzáférés elutasítva</value>
+  </data>
+	<data name="FileDeletionDenied" xml:space="preserve">
+    <value>Az állomány törlése elutasítva</value>
+  </data>
+	<data name="NoFileSelected" xml:space="preserve">
+    <value>Nincs állomány vagy könyvtár kiválasztva</value>
+  </data>
+	<data name="OpenEditorWindow" xml:space="preserve">
+    <value>Szerkesztőablak megnyitása</value>
+  </data>
+	<data name="UploadDocument" xml:space="preserve">
+    <value>Dokumentum feltöltése</value>
+  </data>
+	<data name="ValueRequired" xml:space="preserve">
+    <value>Ebbe a mezőbe értéket kell írni</value>
+  </data>
+	<data name="File" xml:space="preserve">
+    <value>Állomány</value>
+  </data>
+	<data name="DocumentCopied" xml:space="preserve">
+    <value>A dokumentum másolásra került a vágólapra</value>
+  </data>
+	<data name="DocumentNotCopied" xml:space="preserve">
+    <value>Ennek a dokumentumtípusnak a másolása nem támogatott</value>
+  </data>
+	<data name="DuplicateFileName" xml:space="preserve">
+    <value>Egy azonos nevű állomány már létezik. Kérem válasszon másik nevet.</value>
+  </data>
+	<data name="ErrorOccured" xml:space="preserve">
+    <value>Hiba történt.</value>
+  </data>
+	<data name="ExtensionChangeWarning" xml:space="preserve">
+    <value>AZ állomány kiterjesztésének a megváltoztatása nem engedélyezett. Kérjük ellenőrizze, hogy az új kiterjesztés megegyezik a régivel.</value>
+  </data>
+	<data name="FileUploaded" xml:space="preserve">
+    <value>Állomány feltöltve</value>
+  </data>
+	<data name="InvalidFileType" xml:space="preserve">
+    <value>Ez az állománytípus nem tölthető fel.</value>
+  </data>
+	<data name="Lookup" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+	<data name="NoRecordsFound" xml:space="preserve">
+    <value>Nincs találat a rekordok között</value>
+  </data>
+	<data name="OverwritePrompt" xml:space="preserve">
+    <value>Egy azonos nevű állomány már létezik. Szeretné azt felülírni?</value>
+  </data>
+	<data name="Select" xml:space="preserve">
+    <value>Kiválasztás</value>
+  </data>
+	<data name="SelectAFile" xml:space="preserve">
+    <value>Válassza ki a feltölteni kívánt állományt</value>
+  </data>
+	<data name="ShowCalendar" xml:space="preserve">
+    <value>Naptár megjelenítése</value>
+  </data>
+	<data name="SimpleSearch" xml:space="preserve">
+    <value>Egyszerűsített keresés</value>
+  </data>
+	<data name="StandardSearch" xml:space="preserve">
+    <value>Standard keresés</value>
+  </data>
+	<data name="FolderNotEmpty" xml:space="preserve">
+    <value>Folder is not empty</value>
+  </data>
+	<data name="FileExists" xml:space="preserve">
+    <value>A file with this name already exists.</value>
+  </data>
+	<data name="FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+	<data name="FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+	<data name="CheckSpelling" xml:space="preserve">
+    <value>Check spelling</value>
+  </data>
+	<data name="SpellCheck" xml:space="preserve">
+    <value>Spelling Checker</value>
+  </data>
+	<data name="AddNewSearch" xml:space="preserve">
+    <value>Add a new set of search criteria</value>
+  </data>
+	<data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+	<data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+	<data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+	<data name="ColumnPicker" xml:space="preserve">
+    <value>Column Selection</value>
+  </data>
+	<data name="MergeData" xml:space="preserve">
+    <value>Merge selected records with a Word merge document</value>
+  </data>
+	<data name="OpenBrowseDialog" xml:space="preserve">
+    <value>Open browse dialog</value>
+  </data>
+	<data name="OpenColumnSelectionDialog" xml:space="preserve">
+    <value>Open the column selection dialog</value>
+  </data>
+	<data name="ColumnSort" xml:space="preserve">
+    <value>Column Sort Selection Dialog</value>
+  </data>
+	<data name="OpenColumnSortDialog" xml:space="preserve">
+    <value>Open the column sort dialog</value>
+  </data>
+	<data name="SaveProfile" xml:space="preserve">
+    <value>Save Profile</value>
+  </data>
+	<data name="SelectProfile" xml:space="preserve">
+    <value>Select Profile</value>
+  </data>
+	<data name="UserProfiles" xml:space="preserve">
+    <value>User Profiles</value>
+  </data>
+	<data name="OpenUserProfileDialog" xml:space="preserve">
+    <value>Open User Profile dialog</value>
+  </data>
+	<data name="Author" xml:space="preserve">
+    <value>agyenes@mediahead.hu</value>
+    <comment></comment>
+  </data>
+</root>

@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Advanced" xml:space="preserve">
+    <value>متقدم</value>
+    <comment>Advanced HTML Editor</comment>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>بعد</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="AValueIsRequiredFor" xml:space="preserve">
+    <value>يجب إدخال قيمة</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>قبل</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>بين</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>يحتوي على</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="DataMismatch" xml:space="preserve">
+    <value>The value entered into &lt;b&gt;{0}&lt;/b&gt; is not valid for data type</value>
+  </data>
+  <data name="DeleteDisabled" xml:space="preserve">
+    <value>لايمكن حذف سجلات</value>
+  </data>
+  <data name="DoesNotContain" xml:space="preserve">
+    <value>لايحتوي على</value>
+  </data>
+  <data name="DoesNotEndWith" xml:space="preserve">
+    <value>لاينتهي بـ</value>
+  </data>
+  <data name="DoesNotStartWith" xml:space="preserve">
+    <value>لايبدأ بـ</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="EndsWith" xml:space="preserve">
+    <value>ينتهي بـ</value>
+  </data>
+  <data name="EqualTo" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="OutputCurrentPageOnly" xml:space="preserve">
+    <value>عرض الصفحة الحالية فقط</value>
+  </data>
+  <data name="FailedCustomValidation" xml:space="preserve">
+    <value>Failed custom validation</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="FileExceedsMaxSize" xml:space="preserve">
+    <value>The file exceeds the maximum permitted file size.  Please upload a file smaller than {0}Kb</value>
+  </data>
+  <data name="FileUpload" xml:space="preserve">
+    <value>تحميل الملف</value>
+  </data>
+  <data name="FirstPage" xml:space="preserve">
+    <value>الصفحة الأولى</value>
+  </data>
+  <data name="GreaterThan" xml:space="preserve">
+    <value>أكبر من</value>
+  </data>
+  <data name="HTMLEditor" xml:space="preserve">
+    <value>محرر HTML</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>في</value>
+  </data>
+  <data name="InsertDisabled" xml:space="preserve">
+    <value>لايمكن إضافة سجلات</value>
+  </data>
+  <data name="IsNotNull" xml:space="preserve">
+    <value>يحتوي على قيمة</value>
+  </data>
+  <data name="IsNull" xml:space="preserve">
+    <value>فارغ</value>
+  </data>
+  <data name="LastPage" xml:space="preserve">
+    <value>الصفحة الأخيرة</value>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>أقل من</value>
+  </data>
+  <data name="MatchAllCriteria" xml:space="preserve">
+    <value>مطابق لجميع شروط البحث</value>
+  </data>
+  <data name="MatchAtLeastOneCriteria" xml:space="preserve">
+    <value>مطابق لواحد على الأقل من شروط البحث</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="NotBetween" xml:space="preserve">
+    <value>ليس بين</value>
+  </data>
+  <data name="NotEqualTo" xml:space="preserve">
+    <value>لايساوي</value>
+  </data>
+  <data name="NotGreaterThan" xml:space="preserve">
+    <value>ليس أكبر من</value>
+  </data>
+  <data name="NotIn" xml:space="preserve">
+    <value>ليس في</value>
+  </data>
+  <data name="NotLessThan" xml:space="preserve">
+    <value>ليس أقل من</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenInNewWindow" xml:space="preserve">
+    <value>فتح في شاشة جديدة</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>طباعة</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>تم حذف السجل</value>
+  </data>
+  <data name="RecordInserted" xml:space="preserve">
+    <value>تم إضافة السجل</value>
+  </data>
+  <data name="RecordsDeleted" xml:space="preserve">
+    <value>تم حذف السجلات</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>تم تعديل السجل</value>
+  </data>
+  <data name="RenameFile" xml:space="preserve">
+    <value>إعادة تسمية الملف:</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SelectValue" xml:space="preserve">
+    <value>اختر قيمة</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>بسيط</value>
+  </data>
+  <data name="StartsWith" xml:space="preserve">
+    <value>يبدأ بـ</value>
+  </data>
+  <data name="TextEditor" xml:space="preserve">
+    <value>محرر النصوص</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>صحيح</value>
+  </data>
+  <data name="UpdatesDisabled" xml:space="preserve">
+    <value>لايمكن تعديل السجلات</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>رفع</value>
+  </data>
+  <data name="UploadComplete" xml:space="preserve">
+    <value>تم الرفع</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="Rows" xml:space="preserve">
+    <value>السطور</value>
+  </data>
+  <data name="Bytes" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+  <data name="CreateFolder" xml:space="preserve">
+    <value>إنشاء مجلد جديد</value>
+  </data>
+  <data name="DateNotValid" xml:space="preserve">
+    <value>قيمة التاريخ غير مقبولة</value>
+  </data>
+  <data name="DeleteFile" xml:space="preserve">
+    <value>حذف الملف المحدد</value>
+  </data>
+  <data name="FileAttributes" xml:space="preserve">
+    <value>صفات الملف</value>
+  </data>
+  <data name="FileContent" xml:space="preserve">
+    <value>محتوى الملف</value>
+  </data>
+  <data name="FilePreview" xml:space="preserve">
+    <value>معاينة الملف</value>
+  </data>
+  <data name="FileSearch" xml:space="preserve">
+    <value>بحث الملف</value>
+  </data>
+  <data name="FileSearchResults" xml:space="preserve">
+    <value>نتائج بحث الملف</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>اسم المجلد</value>
+  </data>
+  <data name="Includesub-folders" xml:space="preserve">
+    <value>تضمين المجلدات الفرعية</value>
+  </data>
+  <data name="IntegerNotValid" xml:space="preserve">
+    <value>رقم غير صحيح</value>
+  </data>
+  <data name="InvalidRange" xml:space="preserve">
+    <value>المدى غير صحيح</value>
+  </data>
+  <data name="KB" xml:space="preserve">
+    <value>Kilobytes</value>
+  </data>
+  <data name="MB" xml:space="preserve">
+    <value>Megabytes</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>مجلد جديد</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>خيارات</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>مسار</value>
+  </data>
+  <data name="Searchfilesonly" xml:space="preserve">
+    <value>بحث في الملفات فقط</value>
+  </data>
+  <data name="UploadAFile" xml:space="preserve">
+    <value>رفع ملف للمجلد الحالي</value>
+  </data>
+  <data name="AddANewRecord" xml:space="preserve">
+    <value>إضافة سجل جديد</value>
+  </data>
+  <data name="ApplyChangesToTheCurrentRecord" xml:space="preserve">
+    <value>حفظ التعديلات على السجل الحالي</value>
+  </data>
+  <data name="ApplyTheEnteredSearchCriteria" xml:space="preserve">
+    <value>تطبيق شروط البحث المدخلة</value>
+  </data>
+  <data name="ClearTheSearchCriteria" xml:space="preserve">
+    <value>مسح شروط البحث</value>
+  </data>
+  <data name="CloseTheSearchWindow" xml:space="preserve">
+    <value>إغلاق شاشة البحث</value>
+  </data>
+  <data name="CopyGridToClipboard" xml:space="preserve">
+    <value>نسخ الجدول</value>
+  </data>
+  <data name="DeleteTheCurrentRecord" xml:space="preserve">
+    <value>حذف السجل الحالي</value>
+  </data>
+  <data name="DeleteTheSelectedRecord" xml:space="preserve">
+    <value>حذف السجل المحدد</value>
+  </data>
+  <data name="DisplayTheSearchWindow" xml:space="preserve">
+    <value>عرض شاشة البحث</value>
+  </data>
+  <data name="NextMonth" xml:space="preserve">
+    <value>الشهر التالي</value>
+  </data>
+  <data name="OpenTheLookupWindow" xml:space="preserve">
+    <value>فتح شاشة الملفات المساعدة</value>
+  </data>
+  <data name="PreviousMonth" xml:space="preserve">
+    <value>الشهر السابق</value>
+  </data>
+  <data name="PrintGrid" xml:space="preserve">
+    <value>طباعة الجدول</value>
+  </data>
+  <data name="SaveTheGridInTheSelectedFormat" xml:space="preserve">
+    <value>حفظ الجدول بالصيغة المحددة</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>اختر تاريخ</value>
+  </data>
+  <data name="SwitchToAdvancedEditing" xml:space="preserve">
+    <value>تحويل إلى تعديل متقدم</value>
+  </data>
+  <data name="SwitchToSimpleEditing" xml:space="preserve">
+    <value>تحويل إلى تعديل بسيط</value>
+  </data>
+  <data name="UpdateTheSelectedRecord" xml:space="preserve">
+    <value>تعديل السجل المحدد</value>
+  </data>
+  <data name="LinkedRecords" xml:space="preserve">
+    <value>لايمكن حذف السجل المحدد لارتباطه بسجلات أخرى</value>
+  </data>
+  <data name="FirstRow" xml:space="preserve">
+    <value>السطر الأول</value>
+  </data>
+  <data name="LastRow" xml:space="preserve">
+    <value>السطر الأخير</value>
+  </data>
+  <data name="NextRow" xml:space="preserve">
+    <value>السطر التالي</value>
+  </data>
+  <data name="PreviousRow" xml:space="preserve">
+    <value>السطر السابق</value>
+  </data>
+  <data name="ARowMustBeSelected" xml:space="preserve">
+    <value>يجب تحديد سطر</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>هل أنت منأكد من حذف السجلات المحددة؟</value>
+  </data>
+  <data name="GridCopied" xml:space="preserve">
+    <value>تم نسخ الجدول</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>صفحة</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>سجل</value>
+  </data>
+  <data name="UnappliedChanges" xml:space="preserve">
+    <value>لم يتم حفظ التعديلات، إلغاء؟</value>
+  </data>
+  <data name="ExampleFormat" xml:space="preserve">
+    <value>القيمة المدخلة يجب أن تكون بالشكل التالي</value>
+  </data>
+  <data name="DeleteDocument" xml:space="preserve">
+    <value>حذف المستند</value>
+  </data>
+  <data name="DeleteFileConfirm" xml:space="preserve">
+    <value>يرجى اعتماد الأمر بحذف الملف المحدد</value>
+  </data>
+  <data name="DeleteFolderConfirm" xml:space="preserve">
+    <value>يرجى اعتماد الأمر بحذف المجلد المحدد وجميع محتوياته</value>
+  </data>
+  <data name="EditDialogTitle" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="FileAccessDenied" xml:space="preserve">
+    <value>لايمكن الوصول للملف</value>
+  </data>
+  <data name="FileDeletionDenied" xml:space="preserve">
+    <value>لايمكن حذف الملف</value>
+  </data>
+  <data name="NoFileSelected" xml:space="preserve">
+    <value>لم يتم تحديد أي ملف أو مجلد</value>
+  </data>
+  <data name="OpenEditorWindow" xml:space="preserve">
+    <value>فتح شاشة التعديل</value>
+  </data>
+  <data name="UploadDocument" xml:space="preserve">
+    <value>رفع المستند</value>
+  </data>
+  <data name="ValueRequired" xml:space="preserve">
+    <value>يجب إدخال قيمة في هذا الحقل</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="DocumentCopied" xml:space="preserve">
+    <value>تم نسخ المستند</value>
+  </data>
+  <data name="DocumentNotCopied" xml:space="preserve">
+    <value>لايمكن نسخ مستند بهذه الصيغة</value>
+  </data>
+  <data name="DuplicateFileName" xml:space="preserve">
+    <value>يوجد ملف بنفس الاسم، يرجى إدخال اسم آخر</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>حدث خطأ ما</value>
+  </data>
+  <data name="ExtensionChangeWarning" xml:space="preserve">
+    <value>لايمكن تغيير امتداد الملف، يرجى التأكد أن الامتداد الحالي يطابق السابق</value>
+  </data>
+  <data name="FileUploaded" xml:space="preserve">
+    <value>تم رفع الملف</value>
+  </data>
+  <data name="InvalidFileType" xml:space="preserve">
+    <value>لايمكن رفع ملف من هذا النوع</value>
+  </data>
+  <data name="Lookup" xml:space="preserve">
+    <value>ملفات مساعدة</value>
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>لم يتم العثور على سجلات</value>
+  </data>
+  <data name="OverwritePrompt" xml:space="preserve">
+    <value>يوجد ملف بنفس الاسم، هل تود استبدال السابق بالجديد؟</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>اختيار</value>
+  </data>
+  <data name="SelectAFile" xml:space="preserve">
+    <value>يرجى اختيار ملف ليتم رفعه</value>
+  </data>
+  <data name="ShowCalendar" xml:space="preserve">
+    <value>الرزنامة</value>
+  </data>
+  <data name="SimpleSearch" xml:space="preserve">
+    <value>بحث بسيط</value>
+  </data>
+  <data name="StandardSearch" xml:space="preserve">
+    <value>بحث قياس</value>
+  </data>
+  <data name="FolderNotEmpty" xml:space="preserve">
+    <value>المجلد غير فارغ</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>يوجد ملف بنفس الاسم</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>نوع الخط</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>حجم الخط</value>
+  </data>
+  <data name="CheckSpelling" xml:space="preserve">
+    <value>تدقيق إملائي</value>
+  </data>
+  <data name="SpellCheck" xml:space="preserve">
+    <value>مدقق إملائي</value>
+  </data>
+  <data name="AddNewSearch" xml:space="preserve">
+    <value>إضافة مجموعة جديدة من شروط البحث</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>بحث متقدم</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>استعلام</value>
+  </data>
+  <data name="ColumnPicker" xml:space="preserve">
+    <value>اختيار عمود</value>
+  </data>
+  <data name="MergeData" xml:space="preserve">
+    <value>دمج السجلات المحددة بواسطة أداة وورد للدمج</value>
+  </data>
+  <data name="OpenBrowseDialog" xml:space="preserve">
+    <value>فتح شاشة الاستعلام</value>
+  </data>
+  <data name="OpenColumnSelectionDialog" xml:space="preserve">
+    <value>فتح شاشة اختيار العمود</value>
+  </data>
+  <data name="ColumnSort" xml:space="preserve">
+    <value>شاشة اختيار العمود</value>
+  </data>
+  <data name="OpenColumnSortDialog" xml:space="preserve">
+    <value>فتح شاشة فرز الأعمدة</value>
+  </data>
+  <data name="SaveProfile" xml:space="preserve">
+    <value>حفظ ملف تعريفي</value>
+  </data>
+  <data name="SelectProfile" xml:space="preserve">
+    <value>اختيار ملف تعريفي</value>
+  </data>
+  <data name="UserProfiles" xml:space="preserve">
+    <value>الملفات التعريفية للمستخدم</value>
+  </data>
+  <data name="OpenUserProfileDialog" xml:space="preserve">
+    <value>فتح الملف التعريفي للمستخدم</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>mmaghrabi@alwasi.org.qa</value>
+    <comment>213.130.118.34</comment>
+  </data>
+  <data name="AllRows" xml:space="preserve">
+    <value>جميع السطور</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Runtime Configuration Dialog</value>
+  </data>
+  <data name="NoPaging" xml:space="preserve">
+    <value>بلا تصفح</value>
+  </data>
+  <data name="OpenConfigDialog" xml:space="preserve">
+    <value>Open runtime configuration dialog</value>
+  </data>
+  <data name="OutputPageSize" xml:space="preserve">
+    <value>Output page size</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>Display page size</value>
+  </data>
+  <data name="ChartConfig" xml:space="preserve">
+    <value>خصائص الرسم البياني</value>
+  </data>
+  <data name="ChartGrid" xml:space="preserve">
+    <value>فتح خصائص الرسم البياني</value>
+  </data>
+  <data name="PdfSettings" xml:space="preserve">
+    <value>PDF إعدادات</value>
+  </data>
+</root>
