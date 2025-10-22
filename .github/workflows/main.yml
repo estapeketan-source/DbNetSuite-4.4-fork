@@ -1,0 +1,34 @@
+name: Build DbNetSuite
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.1
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1
+      with:
+        nuget-version: '5.x'
+
+    - name: Restore NuGet packages
+      run: nuget restore DbNetSuite.sln
+
+    - name: Build the solution
+      run: msbuild.exe DbNetSuite.sln /p:Configuration=Release
+
+    - name: Upload DLL Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: DbNetSuite-DLL
+        path: DbNetSuite/bin/Release/DbNetSuite.dll
