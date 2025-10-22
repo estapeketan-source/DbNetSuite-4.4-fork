@@ -1,4 +1,4 @@
-name: Build DbNetSuite
+name: Debug Build DbNetSuite
 
 on:
   push:
@@ -13,16 +13,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: List files in the workspace
+      run: dir /s
+      shell: cmd
+
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v2
 
-    # Langkah 'nuget restore' yang lama sudah dihapus
-
     - name: Restore and Build the solution
       run: msbuild.exe DbNetSuite.sln /t:Restore,Build /p:Configuration=Release
-
-    - name: Upload DLL Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: DbNetSuite-DLL
-        path: DbNetSuite/bin/Release/DbNetSuite.dll
