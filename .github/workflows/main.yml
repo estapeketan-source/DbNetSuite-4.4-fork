@@ -11,13 +11,13 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Add msbuild to PATH
-      uses: microsoft/setup-msbuild@v1.1
+      uses: microsoft/setup-msbuild@v2
 
     - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1
+      uses: NuGet/setup-nuget@v2
       with:
         nuget-version: '5.x'
 
@@ -28,7 +28,7 @@ jobs:
       run: msbuild.exe DbNetSuite.sln /p:Configuration=Release
 
     - name: Upload DLL Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: DbNetSuite-DLL
         path: DbNetSuite/bin/Release/DbNetSuite.dll
