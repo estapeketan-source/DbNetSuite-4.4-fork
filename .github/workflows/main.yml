@@ -16,16 +16,10 @@ jobs:
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v2
 
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v2
-      with:
-        nuget-version: '5.x'
+    # Langkah 'nuget restore' yang lama sudah dihapus
 
-    - name: Restore NuGet packages
-      run: nuget restore DbNetSuite.sln
-
-    - name: Build the solution
-      run: msbuild.exe DbNetSuite.sln /p:Configuration=Release
+    - name: Restore and Build the solution
+      run: msbuild.exe DbNetSuite.sln /t:Restore,Build /p:Configuration=Release
 
     - name: Upload DLL Artifact
       uses: actions/upload-artifact@v4
