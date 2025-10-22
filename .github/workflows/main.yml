@@ -17,10 +17,10 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Restore and Build the solution
-      run: msbuild.exe "DbNetSuite 4.4.sln" /t:Restore,Build /p:Configuration=Release
+      run: msbuild.exe "DbNetSuite 4.4.sln" /t:Restore,Build /p:Configuration=Release /p:OutputPath=bin\Release\
 
     - name: Upload DLL Artifact
       uses: actions/upload-artifact@v4
       with:
         name: DbNetSuite-DLL
-        path: bin/Release/DbNetSuite.dll
+        path: bin/Release/DbNetLink.DbNetSuite.dll
